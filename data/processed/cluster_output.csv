@@ -1,0 +1,1001 @@
+complaint_text,complaint_type,language,anger_score,days_pending,repeat_count,escalation_label,x,y,DBSCAN_Cluster,KMeans_Cluster,Risk Score,Risk Level,Root Cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.57,9,4,1,0.239000907501274,0.752741788299874,0,4,66,High,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.58,1,1,0,3.4291791908430818,0.2884144875879914,1,3,36,Medium,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.54,7,1,0,-0.391120366337792,-0.9356414998417956,0,0,46,Medium,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.68,4,3,1,-0.3911203663377927,-0.9356414998417976,0,0,57,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.79,9,3,1,0.2390009075012779,0.7527417882998685,0,4,72,High,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.7,1,1,0,-1.5922467547828327,-2.1694281828813136,2,2,42,Medium,Isolated complaint - no systemic cause
+"color mismatch in my order, very upset",color_mismatch,english,0.71,5,1,0,0.3937367188796189,-0.6687577691426547,0,0,50,High,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.89,20,3,1,-1.7113717658627356,-3.4244081241908466,2,2,99,Critical,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.77,4,4,1,-1.1929884771589887,1.3139764086581622,3,1,66,High,Isolated complaint - no systemic cause
+"color mismatch in my order, very upset",color_mismatch,english,0.55,9,2,0,0.3937367188796189,-0.6687577691426547,0,0,55,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.7,6,1,0,0.2390009075012779,0.7527417882998685,0,4,52,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.56,7,2,0,0.3937367188796189,-0.6687577691426547,0,0,52,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.61,2,2,0,0.3937367188796189,-0.6687577691426547,0,0,44,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.88,7,3,1,-1.7113717658627356,-3.4244081241908466,2,2,73,High,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.76,15,3,1,-1.5922467547828327,-2.1694281828813136,2,2,83,Critical,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.77,3,2,0,-1.1929884771589887,1.3139764086581622,3,1,54,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.47,3,3,1,-0.3911203663377927,-0.935641499841797,0,0,44,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.72,13,4,1,-1.7113717658627356,-3.4244081241908466,2,2,82,Critical,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.74,1,2,0,0.2390009075012779,0.7527417882998685,0,4,49,Medium,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.95,1,3,1,-1.1929884771589887,1.3139764086581622,3,1,64,High,Isolated complaint - no systemic cause
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.92,23,4,1,-1.1929884771589887,1.3139764086581622,3,1,112,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.82,6,4,1,-1.7836398170721757,2.381926407704887,3,1,73,High,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.44,10,3,1,0.2390009075012779,0.7527417882998685,0,4,57,High,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.71,5,1,0,3.4291791620191963,0.2884144815009377,1,3,50,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.55,8,4,1,-0.3911203663377927,-0.935641499841797,0,0,63,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.39,2,3,1,-1.357461773663346,2.7296125988696343,3,1,38,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.67,8,3,1,0.2390009075012779,0.7527417882998685,0,4,64,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.63,0,3,1,0.3937367188796189,-0.6687577691426547,0,0,46,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.67,7,2,0,3.966911999619658,-0.268436093168843,1,3,57,High,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.54,7,1,0,3.4291791620191963,0.2884144815009377,1,3,46,Medium,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.45,8,3,1,0.3937367188796189,-0.6687577691426547,0,0,53,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.8,2,3,1,-1.1929884771589887,1.3139764086581622,3,1,59,High,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.79,3,3,1,0.2390009075012779,0.7527417882998685,0,4,60,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.89,18,4,1,-1.1929884771589887,1.3139764086581622,3,1,100,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.48,3,3,1,-0.3911203663377927,-0.935641499841797,0,0,45,Medium,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.94,3,1,1,-1.5922467003701688,-2.1694284101938868,2,2,58,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.86,2,4,1,3.429179190843084,0.2884144875879759,1,3,67,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.79,22,4,1,-1.7836398170721757,2.381926407704887,3,1,103,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.57,2,4,1,0.2390009075012779,0.7527417882998685,0,4,52,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.9,1,2,1,-1.1929884771589887,1.3139764086581622,3,1,57,High,Isolated complaint - no systemic cause
+"return request ignored completely, no one responding",return_not_picked,english,0.92,21,2,1,-1.5922467003701688,-2.1694284101938868,2,2,98,Critical,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.43,3,3,1,0.3937367188796189,-0.6687577691426547,0,0,42,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.84,10,4,1,3.966911999619658,-0.268436093168843,1,3,82,Critical,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.88,7,3,1,-1.7836398170721757,2.381926407704887,3,1,73,High,Isolated complaint - no systemic cause
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.8,17,4,1,-1.1929884771589887,1.3139764086581622,3,1,94,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.68,5,3,1,3.429179190843084,0.2884144875879759,1,3,59,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.75,4,2,0,-1.7836398170721757,2.381926407704887,3,1,55,High,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.42,10,3,1,0.2390009075012779,0.7527417882998685,0,4,56,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.81,22,2,1,-1.1929884771589887,1.3139764086581622,3,1,94,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.57,4,3,1,3.429179190843084,0.2884144875879759,1,3,51,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.4,4,4,1,-0.3911203663377927,-0.935641499841797,0,0,48,Medium,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.72,1,1,0,-1.1929884771589887,1.3139764086581622,3,1,43,Medium,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.43,2,3,1,0.2390009075012779,0.7527417882998685,0,4,40,Medium,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.88,16,2,1,-1.5922467547828327,-2.1694281828813136,2,2,86,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.95,20,2,1,-1.711371593081928,-3.4244080913301573,2,2,97,Critical,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.36,2,2,0,-0.3911203663377927,-0.935641499841797,0,0,32,Medium,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.87,5,2,1,3.4291789371217094,0.288414405497268,1,3,63,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.34,6,1,0,-0.3911203663377927,-0.935641499841797,0,0,34,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.62,3,4,1,0.2390009075012779,0.7527417882998685,0,4,57,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.5,5,4,1,-0.3911203663377927,-0.935641499841797,0,0,55,High,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.73,4,3,1,0.3937367188796189,-0.6687577691426547,0,0,59,High,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.9,12,3,1,-1.7836398170721757,2.381926407704887,3,1,84,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.6,10,2,0,3.966911999619658,-0.268436093168843,1,3,60,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.91,20,3,1,-1.1929884771589887,1.3139764086581622,3,1,100,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.95,17,3,1,-1.7836398170721757,2.381926407704887,3,1,96,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.57,10,4,1,3.966911999619658,-0.268436093168843,1,3,68,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.69,8,3,1,3.966911999619658,-0.268436093168843,1,3,65,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.63,10,4,1,0.3937367188796189,-0.6687577691426547,0,0,71,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.38,8,4,1,-0.3911203663377927,-0.935641499841797,0,0,55,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.7,24,1,0,-1.711371593081928,-3.4244080913301573,2,2,88,Critical,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.54,6,3,1,3.429179190843084,0.2884144875879759,1,3,54,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.66,22,2,0,-1.711371593081928,-3.4244080913301573,2,2,87,Critical,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.5,0,1,0,-0.3911203663377927,-0.935641499841797,0,0,30,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.5,0,4,1,0.2390009075012779,0.7527417882998685,0,4,45,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.6,8,2,0,3.966911999619658,-0.268436093168843,1,3,56,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.97,20,2,1,-1.1929884771589887,1.3139764086581622,3,1,98,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.85,0,2,1,3.966911999619658,-0.268436093168843,1,3,52,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.89,17,3,1,-1.1929884771589887,1.3139764086581622,3,1,93,Critical,Payment gateway or bank processing delay
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.91,4,4,1,-1.1929884771589887,1.3139764086581622,3,1,73,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.85,7,1,1,3.4291789371217094,0.288414405497268,1,3,61,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.88,7,1,1,-1.1929884771589887,1.3139764086581622,3,1,63,High,Isolated complaint - no systemic cause
+"color mismatch in my order, very upset",color_mismatch,english,0.54,6,4,1,0.3937367188796189,-0.6687577691426547,0,0,59,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.43,7,3,1,-1.357461773663346,2.7296125988696343,3,1,50,High,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.85,0,1,1,3.429179190843084,0.2884144875879759,1,3,47,Medium,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.76,22,3,1,-1.5922467547828327,-2.1694281828813136,2,2,97,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.84,11,3,1,-1.5922467547828327,-2.1694281828813136,2,2,79,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.64,22,2,0,-1.5922467547828327,-2.1694281828813136,2,2,86,Critical,Courier partner failure suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.79,16,4,1,-1.7836398170721757,2.381926407704887,3,1,91,Critical,Payment gateway or bank processing delay
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.74,9,4,1,-1.711371593081928,-3.4244080913301573,2,2,75,Critical,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.6,0,4,1,3.4291789371217094,0.288414405497268,1,3,50,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.72,2,1,0,3.966911999619658,-0.268436093168843,1,3,45,Medium,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.49,2,1,0,0.2390009075012779,0.7527417882998685,0,4,33,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.53,7,1,0,3.966911999619658,-0.268436093168843,1,3,45,Medium,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.91,22,3,1,-1.5922467547828327,-2.1694281828813136,2,2,104,Critical,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.78,0,2,0,3.4291789371217094,0.288414405497268,1,3,49,Medium,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.71,4,3,1,0.3937367188796189,-0.6687577691426547,0,0,58,High,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.83,10,3,1,-1.7836398170721757,2.381926407704887,3,1,76,Critical,Payment gateway or bank processing delay
+"return request ignored completely, no one responding",return_not_picked,english,0.64,18,2,0,-1.5922467547828327,-2.1694281828813136,2,2,78,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.85,18,4,1,-1.711371593081928,-3.4244080913301573,2,2,98,Critical,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.7,5,3,1,0.3937367188796189,-0.6687577691426547,0,0,60,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.44,8,4,1,0.3937367188796189,-0.6687577691426547,0,0,58,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.7,3,4,1,0.2390009075012779,0.7527417882998685,0,4,61,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.43,1,4,1,0.3937367188796189,-0.6687577691426547,0,0,43,Medium,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.41,4,3,1,0.3937367188796189,-0.6687577691426547,0,0,43,Medium,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.35,5,4,1,-1.357461773663346,2.7296125988696343,3,1,47,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.87,8,2,1,-1.7836398170721757,2.381926407704887,3,1,69,High,Isolated complaint - no systemic cause
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.75,14,3,1,-1.7836398170721757,2.381926407704887,3,1,80,Critical,Payment gateway or bank processing delay
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.7,22,3,1,-1.1929884771589887,1.3139764086581622,3,1,94,Critical,Payment gateway or bank processing delay
+"return request ignored completely, no one responding",return_not_picked,english,0.82,8,4,1,-1.5922467547828327,-2.1694281828813136,2,2,77,Critical,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.72,6,1,0,3.4291789371217094,0.288414405497268,1,3,53,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.93,17,1,1,-1.5922467547828327,-2.1694281828813136,2,2,85,Critical,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.88,22,1,1,-1.711371593081928,-3.4244080913301573,2,2,93,Critical,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.61,1,1,0,-1.357461773663346,2.7296125988696343,3,1,37,Medium,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.42,6,2,0,0.3937367188796189,-0.6687577691426547,0,0,43,Medium,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.74,1,1,0,0.3937367188796189,-0.6687577691426547,0,0,44,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.77,9,4,1,3.966911999619658,-0.268436093168843,1,3,76,Critical,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.72,13,2,0,-1.7836398170721757,2.381926407704887,3,1,72,High,Payment gateway or bank processing delay
+"return request ignored completely, no one responding",return_not_picked,english,0.87,25,2,1,-1.5922467547828327,-2.1694281828813136,2,2,103,Critical,Courier partner failure suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.74,11,3,1,-1.7836398170721757,2.381926407704887,3,1,74,High,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.94,8,4,1,-1.7836398741369313,2.381926538334328,3,1,83,Critical,Isolated complaint - no systemic cause
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.55,10,4,1,3.966911999619658,-0.268436093168843,1,3,67,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.61,9,1,0,-1.357461773663346,2.7296125988696343,3,1,53,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.8,4,2,0,-1.711371593081928,-3.4244080913301573,2,2,58,High,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.56,4,2,0,-0.3911203663377927,-0.935641499841797,0,0,46,Medium,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.61,0,3,1,3.429179190843084,0.2884144875879759,1,3,45,Medium,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.97,4,4,1,-1.1929884771589887,1.3139764086581622,3,1,76,Critical,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.81,2,1,0,-1.711371593081928,-3.4244080913301573,2,2,49,Medium,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.35,0,3,1,-1.357461773663346,2.7296125988696343,3,1,32,Medium,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.89,5,4,1,3.429179190843084,0.2884144875879759,1,3,74,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.42,1,1,0,-0.3911203663377927,-0.935641499841797,0,0,28,Low,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.94,18,1,1,-1.1929884771589887,1.3139764086581622,3,1,88,Critical,Payment gateway or bank processing delay
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.97,9,4,1,-1.1929884771589887,1.3139764086581622,3,1,86,Critical,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.48,9,1,0,-1.357461773663346,2.7296125988696343,3,1,47,Medium,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.32,1,4,1,-1.357461773663346,2.7296125988696343,3,1,38,Medium,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.81,15,1,1,-1.1929884771589887,1.3139764086581622,3,1,75,Critical,Payment gateway or bank processing delay
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.48,8,4,1,-1.357461773663346,2.7296125988696343,3,1,60,High,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.69,2,4,1,-0.3911203663377927,-0.935641499841797,0,0,58,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.43,7,3,1,-1.357461773663346,2.7296125988696343,3,1,50,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.39,0,3,1,-1.357461773663346,2.7296125988696343,3,1,34,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.69,1,4,1,3.966911999619658,-0.268436093168843,1,3,56,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.94,16,2,1,-1.7836398170721757,2.381926407704887,3,1,89,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.72,6,2,0,3.429179190843084,0.2884144875879759,1,3,58,High,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.73,3,1,0,0.2390009075012779,0.7527417882998685,0,4,47,Medium,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.65,7,4,1,0.2390009075012779,0.7527417882998685,0,4,66,High,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.78,20,3,1,-1.711371593081928,-3.4244080913301573,2,2,94,Critical,Courier partner failure suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.85,3,1,1,-1.7836398170721757,2.381926407704887,3,1,53,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.68,9,2,0,-0.3911203663377927,-0.935641499841797,0,0,62,High,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.72,20,1,0,-1.7836398170721757,2.381926407704887,3,1,81,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.53,9,3,1,3.966911999619658,-0.268436093168843,1,3,59,High,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.55,2,2,0,0.2390009075012779,0.7527417882998685,0,4,41,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.88,23,1,1,-1.711371593081928,-3.4244080913301573,2,2,95,Critical,Isolated complaint - no systemic cause
+"return request ignored completely, no one responding",return_not_picked,english,0.91,24,1,1,-1.5922467547828327,-2.1694281828813136,2,2,98,Critical,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.8,4,1,0,3.429179190843084,0.2884144875879759,1,3,53,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.84,14,4,1,-1.1929884771589887,1.3139764086581622,3,1,90,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.74,8,4,1,0.2390009075012779,0.7527417882998685,0,4,73,High,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.56,1,4,1,3.966911999619658,-0.268436093168843,1,3,50,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.9,13,2,1,-1.1929884771589887,1.3139764086581622,3,1,81,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.6,3,4,1,3.429179190843084,0.2884144875879759,1,3,56,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.33,0,3,1,-0.3911203663377927,-0.935641499841797,0,0,31,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.76,12,2,1,-1.7836398170721757,2.381926407704887,3,1,72,High,Payment gateway or bank processing delay
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.55,8,3,1,-1.357461773663346,2.7296125988696343,3,1,58,High,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.87,9,2,1,3.429179190843084,0.2884144875879759,1,3,71,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.75,14,3,1,-1.1929884771589887,1.3139764086581622,3,1,80,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.47,6,2,0,-0.3911203663377927,-0.935641499841797,0,0,45,Medium,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.37,9,1,0,-1.357461773663346,2.7296125988696343,3,1,41,Medium,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.86,6,2,1,-1.5922467547828327,-2.1694281828813136,2,2,65,High,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.9,14,4,1,-1.5922467547828327,-2.1694281828813136,2,2,93,Critical,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.79,23,4,1,-1.1929884771589887,1.3139764086581622,3,1,105,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.94,1,1,1,-1.7836398170721757,2.381926407704887,3,1,54,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.33,4,3,1,-0.3911203663377927,-0.935641499841797,0,0,39,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.66,1,2,0,0.2390009075012779,0.7527417882998685,0,4,45,Medium,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.72,3,4,1,-1.1929884771589887,1.3139764086581622,3,1,62,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.6,8,4,1,-0.3911203663377927,-0.935641499841797,0,0,66,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.82,12,1,1,-1.1929884771589887,1.3139764086581622,3,1,70,High,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.66,6,3,1,0.3937367188796189,-0.6687577691426547,0,0,60,High,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.95,3,1,1,-1.711371593081928,-3.4244080913301573,2,2,58,High,Isolated complaint - no systemic cause
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.74,13,4,1,-1.7836398170721757,2.381926407704887,3,1,83,Critical,Payment gateway or bank processing delay
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.82,17,2,1,-1.1929884771589887,1.3139764086581622,3,1,85,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.72,0,1,0,3.966911999619658,-0.268436093168843,1,3,41,Medium,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.76,4,3,1,3.429179190843084,0.2884144875879759,1,3,61,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.9,1,4,1,-1.7836398170721757,2.381926407704887,3,1,67,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.35,9,2,0,-0.3911203663377927,-0.935641499841797,0,0,45,Medium,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.9,9,2,1,3.429179190843084,0.2884144875879759,1,3,73,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.63,2,1,0,0.3937367188796189,-0.6687577691426547,0,0,40,Medium,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.62,5,4,1,-1.357461773663346,2.7296125988696343,3,1,61,High,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.6,6,1,0,3.429179190843084,0.2884144875879759,1,3,47,Medium,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.45,10,3,1,-1.357461773663346,2.7296125988696343,3,1,57,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.46,5,4,1,-1.357461773663346,2.7296125988696343,3,1,53,High,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.59,6,2,0,3.966911999619658,-0.268436093168843,1,3,51,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.86,18,2,1,-1.1929884771589887,1.3139764086581622,3,1,89,Critical,Payment gateway or bank processing delay
+"return request ignored completely, no one responding",return_not_picked,english,0.64,5,4,1,-1.5922467547828327,-2.1694281828813136,2,2,62,High,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.73,2,2,0,-1.1929884771589887,1.3139764086581622,3,1,50,High,Isolated complaint - no systemic cause
+"color mismatch in my order, very upset",color_mismatch,english,0.76,5,3,1,0.3937367188796189,-0.6687577691426547,0,0,63,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.96,18,4,1,-1.1929884771589887,1.3139764086581622,3,1,104,Critical,Payment gateway or bank processing delay
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.7,14,2,0,-1.711371593081928,-3.4244080913301573,2,2,73,High,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.79,18,3,1,-1.5922467547828327,-2.1694281828813136,2,2,90,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.9,7,1,1,3.966911999619658,-0.268436093168843,1,3,64,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.85,13,2,1,-1.5922467547828327,-2.1694281828813136,2,2,78,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.68,3,3,1,-1.711371593081928,-3.4244080913301573,2,2,55,High,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.73,12,3,1,-1.5922467547828327,-2.1694281828813136,2,2,75,Critical,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.95,20,4,1,-1.1929884771589887,1.3139764086581622,3,1,107,Critical,Payment gateway or bank processing delay
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.63,2,4,1,-1.357461773663346,2.7296125988696343,3,1,55,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.37,2,4,1,-1.357461773663346,2.7296125988696343,3,1,42,Medium,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.77,6,3,1,3.429179190843084,0.2884144875879759,1,3,65,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.63,2,4,1,0.3937367188796189,-0.6687577691426547,0,0,55,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.45,4,1,0,0.3937367188796189,-0.6687577691426547,0,0,35,Medium,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.66,7,4,1,-1.357461773663346,2.7296125988696343,3,1,67,High,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.86,20,2,1,-1.5922467547828327,-2.1694281828813136,2,2,93,Critical,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.45,3,4,1,-1.357461773663346,2.7296125988696343,3,1,48,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.72,4,4,1,-1.7836398170721757,2.381926407704887,3,1,64,High,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.38,1,4,1,-1.357461773663346,2.7296125988696343,3,1,41,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.69,4,3,1,0.2390009075012779,0.7527417882998685,0,4,57,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.63,0,3,1,-1.357461773663346,2.7296125988696343,3,1,46,Medium,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.54,0,3,1,3.429179190843084,0.2884144875879759,1,3,42,Medium,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.43,2,4,1,-1.357461773663346,2.7296125988696343,3,1,45,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.58,4,2,0,0.2390009075012779,0.7527417882998685,0,4,47,Medium,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.95,12,3,1,-1.7836398170721757,2.381926407704887,3,1,86,Critical,Payment gateway or bank processing delay
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.95,9,4,1,-1.1929884771589887,1.3139764086581622,3,1,85,Critical,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.89,8,4,1,3.429179190843084,0.2884144875879759,1,3,80,Critical,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.87,25,2,1,-1.5922467547828327,-2.1694281828813136,2,2,103,Critical,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.5,0,2,0,-1.357461773663346,2.7296125988696343,3,1,35,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.89,17,4,1,-1.7836398170721757,2.381926407704887,3,1,98,Critical,Payment gateway or bank processing delay
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.61,0,3,1,-1.357461773663346,2.7296125988696343,3,1,45,Medium,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.72,15,1,0,-1.1929884771589887,1.3139764086581622,3,1,71,High,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.74,9,2,0,0.3937367188796189,-0.6687577691426547,0,0,65,High,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.77,8,1,1,3.966911999619658,-0.268436093168843,1,3,59,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.94,10,3,1,-1.7836398170721757,2.381926407704887,3,1,82,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.49,1,2,0,-0.3911203663377927,-0.935641499841797,0,0,36,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.74,10,4,1,-1.7836398170721757,2.381926407704887,3,1,77,Critical,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.79,7,2,1,0.3937367188796189,-0.6687577691426547,0,0,63,High,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.73,9,3,1,-1.7836398170721757,2.381926407704887,3,1,69,High,Isolated complaint - no systemic cause
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.79,13,2,1,-1.7836398170721757,2.381926407704887,3,1,75,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.53,9,2,0,0.2390009075012779,0.7527417882998685,0,4,54,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.7,10,3,1,-1.357461773663346,2.7296125988696343,3,1,70,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.73,4,4,1,-1.711371593081928,-3.4244080913301573,2,2,64,High,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.7,8,3,1,0.2390009075012779,0.7527417882998685,0,4,66,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.7,2,2,0,0.2390009075012779,0.7527417882998685,0,4,49,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.71,9,2,0,-1.711371593081928,-3.4244080913301573,2,2,63,High,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.8,3,2,0,3.966911999619658,-0.268436093168843,1,3,56,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.68,18,3,1,-1.711371593081928,-3.4244080913301573,2,2,85,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.81,1,1,0,-1.711371593081928,-3.4244080913301573,2,2,47,Medium,Isolated complaint - no systemic cause
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.8,13,3,1,-1.7836398170721757,2.381926407704887,3,1,81,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.92,4,1,1,-1.7836398170721757,2.381926407704887,3,1,59,High,Isolated complaint - no systemic cause
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.86,22,2,1,-1.1929884771589887,1.3139764086581622,3,1,97,Critical,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.6,9,3,1,0.3937367188796189,-0.6687577691426547,0,0,63,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.88,8,2,1,-1.1929884771589887,1.3139764086581622,3,1,70,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.41,8,1,0,-0.3911203663377927,-0.935641499841797,0,0,41,Medium,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.85,0,2,1,3.4291791620191963,0.2884144815009377,1,3,52,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.86,16,2,1,-1.7836398170721757,2.381926407704887,3,1,85,Critical,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.68,4,1,0,0.3937367188796189,-0.6687577691426547,0,0,47,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.89,9,1,1,3.966911999619658,-0.268436093168843,1,3,67,High,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.51,4,1,0,0.2390009075012779,0.7527417882998685,0,4,38,Medium,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.87,21,4,1,-1.1929884771589887,1.3139764086581622,3,1,105,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.87,19,4,1,-1.7836398170721757,2.381926407704887,3,1,101,Critical,Payment gateway or bank processing delay
+"return request ignored completely, no one responding",return_not_picked,english,0.76,19,4,1,-1.5922467547828327,-2.1694281828813136,2,2,96,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.66,2,4,1,-1.711371593081928,-3.4244080913301573,2,2,57,High,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.73,9,2,0,-1.1929884771589887,1.3139764086581622,3,1,64,High,Isolated complaint - no systemic cause
+"color mismatch in my order, very upset",color_mismatch,english,0.62,0,4,1,0.3937367188796189,-0.6687577691426547,0,0,51,High,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.58,9,3,1,3.966911999619658,-0.268436093168843,1,3,62,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.52,10,4,1,-1.357461773663346,2.7296125988696343,3,1,66,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.47,8,4,1,0.2390009075012779,0.7527417882998685,0,4,59,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.42,7,1,0,-1.357461773663346,2.7296125988696343,3,1,40,Medium,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.55,5,1,0,3.4291791620191963,0.2884144815009377,1,3,42,Medium,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.76,5,3,1,0.3937367188796189,-0.6687577691426547,0,0,63,High,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.54,3,4,1,3.4291791620191963,0.2884144815009377,1,3,53,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.64,3,3,1,-1.5922467003701688,-2.1694284101938868,2,2,53,High,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.63,12,4,1,-1.5922467003701688,-2.1694284101938868,2,2,75,Critical,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.61,9,1,0,-0.3911203663377927,-0.935641499841797,0,0,53,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.45,1,4,1,0.2390009075012779,0.7527417882998685,0,4,44,Medium,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.51,2,2,0,0.2390009075012779,0.7527417882998685,0,4,39,Medium,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.33,1,1,0,-0.3911203663377927,-0.935641499841797,0,0,23,Low,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.94,23,2,1,-1.5922467547828327,-2.1694281828813136,2,2,103,Critical,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.45,2,4,1,-0.3911203663377927,-0.935641499841797,0,0,46,Medium,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.42,9,1,0,-0.3911203663377927,-0.935641499841797,0,0,44,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.82,18,2,1,-1.711371593081928,-3.4244080913301573,2,2,87,Critical,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.74,24,3,1,-1.1929884771589887,1.3139764086581622,3,1,100,Critical,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.68,5,2,0,0.3937367188796189,-0.6687577691426547,0,0,54,High,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.82,0,4,1,-1.711371593081928,-3.4244080913301573,2,2,61,High,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.46,4,2,0,0.2390009075012779,0.7527417882998685,0,4,41,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.66,17,1,0,-1.711371593081928,-3.4244080913301573,2,2,72,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.68,10,3,1,3.4291791620191963,0.2884144815009377,1,3,69,High,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.83,4,4,1,3.4291791620191963,0.2884144815009377,1,3,69,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.73,0,3,1,-1.1929884771589887,1.3139764086581622,3,1,51,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.5,4,3,1,-0.3911203663377927,-0.935641499841797,0,0,48,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.59,9,3,1,0.2390009075012779,0.7527417882998685,0,4,62,High,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.82,7,2,1,3.4291791620191963,0.2884144815009377,1,3,65,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.96,7,1,1,-1.1929884771589887,1.3139764086581622,3,1,67,High,Isolated complaint - no systemic cause
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.82,12,1,1,-1.1929884771589887,1.3139764086581622,3,1,70,High,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.67,8,3,1,3.429179190843084,0.2884144875879759,1,3,64,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.7,2,3,1,-0.3911203663377927,-0.935641499841797,0,0,54,High,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.76,0,1,0,0.3937367188796189,-0.6687577691426547,0,0,43,Medium,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.5,9,3,1,0.3937367188796189,-0.6687577691426547,0,0,58,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.6,6,2,0,0.2390009075012779,0.7527417882998685,0,4,52,High,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.87,11,1,1,-1.7836398170721757,2.381926407704887,3,1,70,High,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.52,0,3,1,3.966911999619658,-0.268436093168843,1,3,41,Medium,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.76,17,1,1,-1.5922467003701688,-2.1694284101938868,2,2,77,Critical,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.55,6,4,1,-1.357461773663346,2.7296125988696343,3,1,59,High,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.7,21,4,1,-1.5922467003701688,-2.1694284101938868,2,2,97,Critical,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.82,0,2,0,3.429179190843084,0.2884144875879759,1,3,51,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.48,10,2,0,-1.357461773663346,2.7296125988696343,3,1,54,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.8,8,4,1,0.2390009075012779,0.7527417882998685,0,4,76,Critical,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.5,10,3,1,-0.3911203663377927,-0.935641499841797,0,0,60,High,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.87,4,4,1,3.966911999619658,-0.268436093168843,1,3,71,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.54,8,2,0,3.966911999619658,-0.268436093168843,1,3,53,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.68,18,2,0,-1.5922467547828327,-2.1694281828813136,2,2,80,Critical,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.83,13,2,1,-1.1929884771589887,1.3139764086581622,3,1,77,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.86,22,3,1,-1.7836398170721757,2.381926407704887,3,1,102,Critical,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.67,1,3,1,0.3937367188796189,-0.6687577691426547,0,0,50,High,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.84,18,3,1,-1.7836398170721757,2.381926407704887,3,1,93,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.76,3,1,0,3.429179190843084,0.2884144875879759,1,3,49,Medium,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.94,8,2,1,-1.7836398170721757,2.381926407704887,3,1,73,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.55,5,3,1,-0.3911203663377927,-0.935641499841797,0,0,52,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.54,9,3,1,0.2390009075012779,0.7527417882998685,0,4,60,High,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.67,8,4,1,3.429179190843084,0.2884144875879759,1,3,69,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.75,3,2,0,-1.5922467547828327,-2.1694281828813136,2,2,53,High,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.92,11,3,1,-1.711371593081928,-3.4244080913301573,2,2,83,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.72,14,3,1,-1.5922467547828327,-2.1694281828813136,2,2,79,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.89,8,3,1,3.966911999619658,-0.268436093168843,1,3,75,Critical,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.9,12,4,1,-1.5922467547828327,-2.1694281828813136,2,2,89,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.63,3,1,0,3.966911999619658,-0.268436093168843,1,3,42,Medium,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.96,25,4,1,-1.1929884771589887,1.3139764086581622,3,1,118,Critical,Payment gateway or bank processing delay
+"return request ignored completely, no one responding",return_not_picked,english,0.76,14,2,1,-1.5922467547828327,-2.1694281828813136,2,2,76,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.59,6,1,0,3.966911999619658,-0.268436093168843,1,3,46,Medium,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.73,9,1,0,-1.5922467547828327,-2.1694281828813136,2,2,59,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.62,3,3,1,3.429179190843084,0.2884144875879759,1,3,52,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.51,2,3,1,0.3937367188796189,-0.6687577691426547,0,0,44,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.62,7,1,0,3.966911999619658,-0.268436093168843,1,3,50,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.63,10,1,0,-1.357461773663346,2.7296125988696343,3,1,56,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.43,9,1,0,0.2390009075012779,0.7527417882998685,0,4,44,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.64,13,3,1,-1.711371593081928,-3.4244080913301573,2,2,73,High,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.84,20,3,1,-1.711371593081928,-3.4244080913301573,2,2,97,Critical,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.65,6,1,0,0.2390009075012779,0.7527417882998685,0,4,49,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.52,5,1,0,3.966911999619658,-0.268436093168843,1,3,41,Medium,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.81,14,3,1,-1.19298844132262,1.3139763500652175,3,1,83,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.56,0,3,1,-0.3911203663377927,-0.935641499841797,0,0,43,Medium,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.8,1,4,1,0.3937367188796189,-0.6687577691426547,0,0,62,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.58,9,3,1,0.3937367188796189,-0.6687577691426547,0,0,62,High,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.64,2,4,1,3.429179190843084,0.2884144875879759,1,3,56,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.64,0,4,1,3.966911999619658,-0.268436093168843,1,3,52,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.64,10,1,0,3.966911999619658,-0.268436093168843,1,3,57,High,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.66,5,1,0,3.4291789371217094,0.288414405497268,1,3,48,Medium,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.82,21,3,1,-1.7836398170721757,2.381926407704887,3,1,98,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.78,3,1,0,3.966911999619658,-0.268436093168843,1,3,50,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.39,7,3,1,-1.357461773663346,2.7296125988696343,3,1,48,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.72,2,3,1,-1.7836398170721757,2.381926407704887,3,1,55,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.37,2,4,1,-0.3911203663377927,-0.935641499841797,0,0,42,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.53,10,3,1,3.966911999619658,-0.268436093168843,1,3,61,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.79,15,3,1,-1.711371593081928,-3.4244080913301573,2,2,84,Critical,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.47,9,3,1,-0.3911203663377927,-0.935641499841797,0,0,56,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.86,24,1,1,-1.1929884771589887,1.3139764086581622,3,1,96,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.67,6,2,0,0.2390009075012779,0.7527417882998685,0,4,55,High,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.79,3,2,0,-1.7836398170721757,2.381926407704887,3,1,55,High,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.53,5,3,1,-1.357461773663346,2.7296125988696343,3,1,51,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.92,3,2,1,-1.1929884771589887,1.3139764086581622,3,1,62,High,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.57,7,4,1,0.2390009075012779,0.7527417882998685,0,4,62,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.78,1,3,1,0.2390009075012779,0.7527417882998685,0,4,56,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.48,5,2,0,-0.3911203663377927,-0.935641499841797,0,0,44,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.74,9,3,1,-1.7836398170721757,2.381926407704887,3,1,70,High,Isolated complaint - no systemic cause
+"color mismatch in my order, very upset",color_mismatch,english,0.58,4,4,1,0.3937367188796189,-0.6687577691426547,0,0,57,High,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.75,21,4,1,-1.7836398170721757,2.381926407704887,3,1,99,Critical,Payment gateway or bank processing delay
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.73,14,3,1,-1.711371593081928,-3.4244080913301573,2,2,79,Critical,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.39,7,1,0,-0.3911203663377927,-0.935641499841797,0,0,38,Medium,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.54,8,1,0,-1.357461773663346,2.7296125988696343,3,1,48,Medium,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.46,4,3,1,-0.3911203663377927,-0.935641499841797,0,0,46,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.93,17,4,1,-1.7836398170721757,2.381926407704887,3,1,100,Critical,Payment gateway or bank processing delay
+"return request ignored completely, no one responding",return_not_picked,english,0.67,15,4,1,-1.5922467547828327,-2.1694281828813136,2,2,83,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.92,11,3,1,-1.711371593081928,-3.4244080913301573,2,2,83,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.89,19,2,1,-1.711371593081928,-3.4244080913301573,2,2,92,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.76,11,1,1,-1.5922467547828327,-2.1694281828813136,2,2,65,High,Isolated complaint - no systemic cause
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.55,9,2,0,3.966911999619658,-0.268436093168843,1,3,55,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.72,9,2,0,-1.1929884771589887,1.3139764086581622,3,1,64,High,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.68,7,2,0,-1.357461773663346,2.7296125988696343,3,1,58,High,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.55,10,1,0,-0.3911203663377927,-0.935641499841797,0,0,52,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.75,10,4,1,-1.711371593081928,-3.4244080913301573,2,2,77,Critical,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.49,9,3,1,0.3937367188796189,-0.6687577691426547,0,0,57,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.63,9,3,1,-1.357461773663346,2.7296125988696343,3,1,64,High,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.88,20,3,1,-1.5922467547828327,-2.1694281828813136,2,2,99,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.88,17,1,1,-1.711371593081928,-3.4244080913301573,2,2,83,Critical,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.37,9,1,0,-0.3911203663377927,-0.935641499841797,0,0,41,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.8,12,3,1,-1.711371593081928,-3.4244080913301573,2,2,79,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.84,4,4,1,-1.5922467547828327,-2.1694281828813136,2,2,70,High,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.57,2,3,1,-1.357461773663346,2.7296125988696343,3,1,47,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.51,4,3,1,3.966911999619658,-0.268436093168843,1,3,48,Medium,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.97,6,3,1,-1.7836398170721757,2.381926407704887,3,1,75,Critical,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.33,6,4,1,-0.3911203663377927,-0.935641499841797,0,0,48,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.9,19,4,1,-1.711371593081928,-3.4244080913301573,2,2,103,Critical,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.48,4,4,1,-0.3911203663377927,-0.935641499841797,0,0,52,High,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.57,4,1,0,3.966911999619658,-0.268436093168843,1,3,41,Medium,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.56,8,2,0,-0.3911203663377927,-0.935641499841797,0,0,54,High,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.82,18,2,1,-1.7836398170721757,2.381926407704887,3,1,87,Critical,Payment gateway or bank processing delay
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.65,2,1,0,-1.357461773663346,2.7296125988696343,3,1,41,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.52,2,4,1,0.2390009075012779,0.7527417882998685,0,4,50,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.53,3,1,0,0.3937367188796189,-0.6687577691426547,0,0,37,Medium,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.62,10,2,0,-1.5922467003701688,-2.1694284101938868,2,2,61,High,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.64,24,2,0,-1.5922467547828327,-2.1694281828813136,2,2,90,Critical,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.45,3,1,0,0.3937367188796189,-0.6687577691426547,0,0,33,Medium,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.45,2,4,1,-1.357461773663346,2.7296125988696343,3,1,46,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.51,1,3,1,3.966911999619658,-0.268436093168843,1,3,42,Medium,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.87,8,4,1,3.429179190843084,0.2884144875879759,1,3,79,Critical,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.62,10,2,0,3.429179190843084,0.2884144875879759,1,3,61,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.89,24,1,1,-1.7836398170721757,2.381926407704887,3,1,97,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.76,1,4,1,3.429179190843084,0.2884144875879759,1,3,60,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.92,1,3,1,-1.1929884771589887,1.3139764086581622,3,1,63,High,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.7,5,1,0,0.2390009075012779,0.7527417882998685,0,4,50,High,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.87,15,4,1,-1.5922467547828327,-2.1694281828813136,2,2,93,Critical,Courier partner failure suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.72,21,1,0,-1.7836398170721757,2.381926407704887,3,1,83,Critical,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.61,9,2,0,0.3937367188796189,-0.6687577691426547,0,0,58,High,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.87,7,3,1,-1.5922467547828327,-2.1694281828813136,2,2,72,High,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.45,7,2,0,0.2390009075012779,0.7527417882998685,0,4,46,Medium,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.68,8,2,0,3.429179190843084,0.2884144875879759,1,3,60,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.7,7,4,1,0.3937367188796189,-0.6687577691426547,0,0,69,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.41,1,4,1,-0.3911203663377927,-0.935641499841797,0,0,42,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.58,5,2,0,0.2390009075012779,0.7527417882998685,0,4,49,Medium,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.9,8,4,1,-1.7836398170721757,2.381926407704887,3,1,81,Critical,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.84,5,4,1,3.4291791620191963,0.2884144815009377,1,3,72,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.51,8,3,1,-0.3911203663377927,-0.935641499841797,0,0,56,High,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.9,6,4,1,3.966911999619658,-0.268436093168843,1,3,77,Critical,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.72,9,3,1,3.966911999619658,-0.268436093168843,1,3,69,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.69,4,4,1,-1.5922467547828327,-2.1694281828813136,2,2,62,High,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.83,5,1,0,3.429179190843084,0.2884144875879759,1,3,56,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.7,20,3,1,-1.5922467547828327,-2.1694281828813136,2,2,90,Critical,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.35,3,4,1,-1.357461773663346,2.7296125988696343,3,1,43,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.65,22,1,0,-1.711371593081928,-3.4244080913301573,2,2,81,Critical,Isolated complaint - no systemic cause
+"return request ignored completely, no one responding",return_not_picked,english,0.61,5,4,1,-1.5922467547828327,-2.1694281828813136,2,2,60,High,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.78,9,1,1,-1.711371593081928,-3.4244080913301573,2,2,62,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.76,7,4,1,3.429179190843084,0.2884144875879759,1,3,72,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.86,1,1,1,-1.711371593081928,-3.4244080913301573,2,2,50,High,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.43,3,3,1,0.2390009075012779,0.7527417882998685,0,4,42,Medium,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.66,19,3,1,-1.5922467003701688,-2.1694284101938868,2,2,86,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.75,7,1,1,3.966911999619658,-0.268436093168843,1,3,56,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.31,10,2,0,-1.357461773663346,2.7296125988696343,3,1,45,Medium,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.55,7,3,1,-0.3911203663377927,-0.935641499841797,0,0,56,High,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.77,3,4,1,-1.7836398170721757,2.381926407704887,3,1,64,High,Isolated complaint - no systemic cause
+"color mismatch in my order, very upset",color_mismatch,english,0.48,9,2,0,0.3937367188796189,-0.6687577691426547,0,0,52,High,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.71,24,4,1,-1.5922467547828327,-2.1694281828813136,2,2,103,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.82,7,1,1,3.966911999619658,-0.268436093168843,1,3,60,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.84,2,1,0,3.966911999619658,-0.268436093168843,1,3,51,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.93,8,1,1,-1.5922467547828327,-2.1694281828813136,2,2,67,High,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.67,2,2,0,0.2390009075012779,0.7527417882998685,0,4,47,Medium,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.32,6,4,1,-1.357461773663346,2.7296125988696343,3,1,48,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.88,2,3,1,-1.711371593081928,-3.4244080913301573,2,2,63,High,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.78,7,2,1,3.966911999619658,-0.268436093168843,1,3,63,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.64,1,1,0,-0.3911203663377927,-0.935641499841797,0,0,39,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.78,17,3,1,-1.711371593081928,-3.4244080913301573,2,2,88,Critical,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.35,5,4,1,-1.357461773663346,2.7296125988696343,3,1,47,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.69,8,2,0,3.966911999619658,-0.268436093168843,1,3,60,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.86,6,4,1,-1.711371593081928,-3.4244080913301573,2,2,75,Critical,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.74,9,4,1,0.3937367188796189,-0.6687577691426547,0,0,75,Critical,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.68,2,3,1,-1.357461773663346,2.7296125988696343,3,1,53,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.74,22,4,1,-1.711371593081928,-3.4244080913301573,2,2,101,Critical,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.51,6,1,0,-1.357461773663346,2.7296125988696343,3,1,42,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.64,13,1,0,-1.711371593081928,-3.4244080913301573,2,2,63,High,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.84,15,4,1,-1.711371593081928,-3.4244080913301573,2,2,92,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.93,14,4,1,-1.711371593081928,-3.4244080913301573,2,2,94,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.87,12,4,1,-1.5922467547828327,-2.1694281828813136,2,2,87,Critical,Courier partner failure suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.84,1,1,0,-1.7836398170721757,2.381926407704887,3,1,49,Medium,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.37,10,4,1,-1.357461773663346,2.7296125988696343,3,1,58,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.93,8,3,1,-1.1929884771589887,1.3139764086581622,3,1,77,Critical,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.57,10,1,0,-1.357461773663346,2.7296125988696343,3,1,53,High,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.64,9,2,0,3.966911999619658,-0.268436093168843,1,3,60,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.71,17,1,0,-1.7836398170721757,2.381926407704887,3,1,74,High,Payment gateway or bank processing delay
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.89,18,2,1,-1.711371593081928,-3.4244080913301573,2,2,90,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.66,19,3,1,-1.5922467547828327,-2.1694281828813136,2,2,86,Critical,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.59,3,4,1,0.2390009075012779,0.7527417882998685,0,4,55,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.59,10,3,1,-0.3911203663377927,-0.935641499841797,0,0,64,High,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.78,19,2,1,-1.7836398170721757,2.381926407704887,3,1,87,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.82,1,3,1,-1.7836398170721757,2.381926407704887,3,1,58,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.74,10,3,1,3.429179190843084,0.2884144875879759,1,3,72,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.3,5,2,0,-1.357461773663346,2.7296125988696343,3,1,35,Medium,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.8,10,1,1,3.429179190843084,0.2884144875879759,1,3,65,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.89,13,3,1,-1.1929884771589887,1.3139764086581622,3,1,85,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.6,6,2,0,3.966911999619658,-0.268436093168843,1,3,52,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.67,4,2,0,-0.3911203663377927,-0.935641499841797,0,0,51,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.86,1,1,1,-1.1929884771589887,1.3139764086581622,3,1,50,High,Isolated complaint - no systemic cause
+"color mismatch in my order, very upset",color_mismatch,english,0.51,9,1,0,0.3937367188796189,-0.6687577691426547,0,0,48,Medium,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.78,20,4,1,-1.5922467547828327,-2.1694281828813136,2,2,99,Critical,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.75,1,2,0,0.2390009075012779,0.7527417882998685,0,4,49,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.87,21,4,1,-1.711371593081928,-3.4244080913301573,2,2,105,Critical,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.56,4,4,1,-1.357461773663346,2.7296125988696343,3,1,56,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.93,16,3,1,-1.711371593081928,-3.4244080913301573,2,2,93,Critical,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.79,2,3,1,0.2390009075012779,0.7527417882998685,0,4,58,High,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.79,24,1,1,-1.7836398170721757,2.381926407704887,3,1,92,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.54,5,3,1,0.2390009075012779,0.7527417882998685,0,4,52,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.51,10,3,1,0.3937367188796189,-0.6687577691426547,0,0,60,High,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.87,23,3,1,-1.711371593081928,-3.4244080913301573,2,2,104,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.78,3,3,1,-1.711371593081928,-3.4244080913301573,2,2,60,High,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.5,4,2,0,3.966911999619658,-0.268436093168843,1,3,43,Medium,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.72,11,3,1,-1.1929884771589887,1.3139764086581622,3,1,73,High,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.81,8,4,1,3.429179190843084,0.2884144875879759,1,3,76,Critical,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.71,4,4,1,3.429179190843084,0.2884144875879759,1,3,63,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.71,8,4,1,0.3937367188796189,-0.6687577691426547,0,0,71,High,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.7,2,2,0,3.429179190843084,0.2884144875879759,1,3,49,Medium,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.74,2,4,1,0.3937367188796189,-0.6687577691426547,0,0,61,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.54,10,1,0,-0.3911203663377927,-0.935641499841797,0,0,52,High,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.75,2,2,0,0.3937367188796189,-0.6687577691426547,0,0,51,High,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.86,13,2,1,-1.5922467547828327,-2.1694281828813136,2,2,79,Critical,Courier partner failure suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.9,13,3,1,-1.7836398170721757,2.381926407704887,3,1,86,Critical,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.72,8,1,0,0.3937367188796189,-0.6687577691426547,0,0,57,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.48,6,4,1,-0.3911203663377927,-0.935641499841797,0,0,56,High,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.71,8,2,0,3.966911999619658,-0.268436093168843,1,3,61,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.67,2,4,1,-0.3911203663377927,-0.935641499841797,0,0,57,High,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.69,5,3,1,3.429179190843084,0.2884144875879759,1,3,59,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.54,1,2,0,-1.357461773663346,2.7296125988696343,3,1,39,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.72,3,3,1,0.2390009075012779,0.7527417882998685,0,4,57,High,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.61,22,4,1,-1.711371593081928,-3.4244080913301573,2,2,94,Critical,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.63,6,2,0,-0.3911203663377927,-0.935641499841797,0,0,53,High,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.95,0,3,1,-1.7836398170721757,2.381926407704887,3,1,62,High,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.83,0,2,0,-1.711371593081928,-3.4244080913301573,2,2,51,High,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.66,1,1,0,0.3937367188796189,-0.6687577691426547,0,0,40,Medium,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.42,5,4,1,0.2390009075012779,0.7527417882998685,0,4,51,High,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.78,7,1,1,3.429179190843084,0.2884144875879759,1,3,58,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.61,6,1,0,-1.5922467547828327,-2.1694281828813136,2,2,47,Medium,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.31,10,4,1,-1.357461773663346,2.7296125988696343,3,1,55,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.53,1,1,0,-1.357461773663346,2.7296125988696343,3,1,33,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.87,7,4,1,-1.7836398170721757,2.381926407704887,3,1,77,Critical,Isolated complaint - no systemic cause
+"return request ignored completely, no one responding",return_not_picked,english,0.94,17,2,1,-1.5922467547828327,-2.1694281828813136,2,2,91,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.76,7,4,1,3.966911999619658,-0.268436093168843,1,3,72,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.84,8,4,1,-1.1929884771589887,1.3139764086581622,3,1,78,Critical,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.9,18,4,1,-1.711371593081928,-3.4244080913301573,2,2,101,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.57,6,3,1,3.966911999619658,-0.268436093168843,1,3,55,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.63,10,3,1,0.3937367188796189,-0.6687577691426547,0,0,66,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.42,1,3,1,0.3937367188796189,-0.6687577691426547,0,0,38,Medium,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.8,7,4,1,0.2390009075012779,0.7527417882998685,0,4,74,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.57,10,2,0,-0.3911203663377927,-0.935641499841797,0,0,58,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.54,1,3,1,0.2390009075012779,0.7527417882998685,0,4,44,Medium,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.62,5,1,0,0.2390009075012779,0.7527417882998685,0,4,46,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.9,0,3,1,-1.711371593081928,-3.4244080913301573,2,2,60,High,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.88,18,1,1,-1.711371593081928,-3.4244080913301573,2,2,85,Critical,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.63,9,1,0,-0.3911203663377927,-0.935641499841797,0,0,54,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.84,9,4,1,-1.711371593081928,-3.4244080913301573,2,2,80,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.78,23,2,1,-1.5922467003701688,-2.1694284101938868,2,2,95,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.62,23,3,1,-1.5922467003701688,-2.1694284101938868,2,2,92,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.52,4,4,1,3.966911999619658,-0.268436093168843,1,3,54,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.95,15,1,1,-1.7836398170721757,2.381926407704887,3,1,82,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.97,10,4,1,-1.7836398170721757,2.381926407704887,3,1,88,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.76,19,1,1,-1.7836398170721757,2.381926407704887,3,1,81,Critical,Payment gateway or bank processing delay
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.61,7,4,1,-1.711371593081928,-3.4244080913301573,2,2,64,High,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.69,3,2,0,-1.357461773663346,2.7296125988696343,3,1,50,High,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.56,5,1,0,-0.3911203663377927,-0.935641499841797,0,0,43,Medium,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.47,9,4,1,0.3937367188796189,-0.6687577691426547,0,0,61,High,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.7,13,3,1,-1.5922467003701688,-2.1694284101938868,2,2,76,Critical,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.77,2,4,1,0.2390009075012779,0.7527417882998685,0,4,62,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.41,8,2,0,0.3937367188796189,-0.6687577691426547,0,0,46,Medium,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.51,4,2,0,3.429179190843084,0.2884144875879759,1,3,43,Medium,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.64,8,4,1,3.429179190843084,0.2884144875879759,1,3,68,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.77,10,3,1,-1.711371593081928,-3.4244080913301573,2,2,73,High,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.59,5,1,0,3.966911999619658,-0.268436093168843,1,3,44,Medium,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.58,10,2,0,-1.357461773663346,2.7296125988696343,3,1,59,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.61,4,2,0,0.2390009075012779,0.7527417882998685,0,4,48,Medium,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.52,3,2,0,0.3937367188796189,-0.6687577691426547,0,0,42,Medium,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.48,3,1,0,0.3937367188796189,-0.6687577691426547,0,0,35,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.78,5,1,0,-1.711371593081928,-3.4244080913301573,2,2,54,High,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.89,16,3,1,-1.711371593081928,-3.4244080913301573,2,2,91,Critical,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.64,9,2,0,3.429179190843084,0.2884144875879759,1,3,60,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.88,11,1,1,-1.711371593081928,-3.4244080913301573,2,2,71,High,Isolated complaint - no systemic cause
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.51,3,3,1,3.966911999619658,-0.268436093168843,1,3,46,Medium,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.89,6,4,1,-1.1929884771589887,1.3139764086581622,3,1,76,Critical,Isolated complaint - no systemic cause
+"return request ignored completely, no one responding",return_not_picked,english,0.95,21,3,1,-1.5922467003701688,-2.1694284101938868,2,2,104,Critical,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.64,7,1,0,0.3937367188796189,-0.6687577691426547,0,0,51,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.91,10,1,1,-1.1929884771589887,1.3139764086581622,3,1,70,High,Payment gateway or bank processing delay
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.53,3,4,1,-1.357461773663346,2.7296125988696343,3,1,52,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.9,5,4,1,-1.1929884771589887,1.3139764086581622,3,1,75,Critical,Isolated complaint - no systemic cause
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.82,24,1,1,-1.7836398170721757,2.381926407704887,3,1,94,Critical,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.58,2,3,1,0.3937367188796189,-0.6687577691426547,0,0,48,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.75,14,3,1,-1.711371593081928,-3.4244080913301573,2,2,80,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.8,18,4,1,-1.711371593081928,-3.4244080913301573,2,2,96,Critical,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.3,8,2,0,-1.357461773663346,2.7296125988696343,3,1,41,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.81,21,2,1,-1.7836398170721757,2.381926407704887,3,1,92,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.65,10,1,0,0.2390009075012779,0.7527417882998685,0,4,57,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.43,9,1,0,0.3937367188796189,-0.6687577691426547,0,0,44,Medium,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.84,25,2,1,-1.1929884771589887,1.3139764086581622,3,1,102,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.81,1,4,1,-1.7836398170721757,2.381926407704887,3,1,62,High,Isolated complaint - no systemic cause
+"color mismatch in my order, very upset",color_mismatch,english,0.74,3,1,0,0.3937367188796189,-0.6687577691426547,0,0,48,Medium,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.69,8,2,0,-0.3911203663377927,-0.935641499841797,0,0,60,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.63,12,1,0,-1.711371593081928,-3.4244080913301573,2,2,60,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.63,4,3,1,3.429179190843084,0.2884144875879759,1,3,54,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.77,5,4,1,3.966911999619658,-0.268436093168843,1,3,68,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.43,7,2,0,-0.3911203663377927,-0.935641499841797,0,0,45,Medium,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.73,22,1,0,-1.1929884771589887,1.3139764086581622,3,1,85,Critical,Payment gateway or bank processing delay
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.47,4,3,1,-1.357461773663346,2.7296125988696343,3,1,46,Medium,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.62,4,3,1,-0.3911203663377927,-0.935641499841797,0,0,54,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.75,11,2,1,-1.1929884771589887,1.3139764086581622,3,1,69,High,Payment gateway or bank processing delay
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.75,10,1,1,-1.1929884771589887,1.3139764086581622,3,1,62,High,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.56,0,1,0,-0.3911203663377927,-0.935641499841797,0,0,33,Medium,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.91,18,1,1,-1.5922467547828327,-2.1694281828813136,2,2,86,Critical,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.67,5,2,0,3.4291791620191963,0.2884144815009377,1,3,53,High,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.82,1,4,1,3.4291791620191963,0.2884144815009377,1,3,63,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.31,6,4,1,-0.3911203663377927,-0.935641499841797,0,0,47,Medium,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.94,0,1,1,-1.5922467003701688,-2.1694284101938868,2,2,52,High,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.46,9,1,0,-1.357461773663346,2.7296125988696343,3,1,46,Medium,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.36,9,3,1,-1.357461773663346,2.7296125988696343,3,1,51,High,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.76,24,3,1,-1.5922467003701688,-2.1694284101938868,2,2,101,Critical,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.87,10,3,1,3.4291791620191963,0.2884144815009377,1,3,78,Critical,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.75,17,4,1,-1.7836398170721757,2.381926407704887,3,1,91,Critical,Payment gateway or bank processing delay
+"return request ignored completely, no one responding",return_not_picked,english,0.65,9,2,0,-1.5922467547828327,-2.1694281828813136,2,2,60,High,Courier partner failure suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.87,24,1,1,-1.7836398170721757,2.381926407704887,3,1,96,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.72,1,2,0,3.4291791620191963,0.2884144815009377,1,3,48,Medium,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.76,9,4,1,3.966911999619658,-0.268436093168843,1,3,76,Critical,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.84,17,1,1,-1.1929884771589887,1.3139764086581622,3,1,81,Critical,Payment gateway or bank processing delay
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.86,24,1,1,-1.711371593081928,-3.4244080913301573,2,2,96,Critical,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.84,1,4,1,3.4291791620191963,0.2884144815009377,1,3,64,High,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.51,3,4,1,3.4291791620191963,0.2884144815009377,1,3,51,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.71,9,2,0,3.966911999619658,-0.268436093168843,1,3,63,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.58,7,3,1,-1.357461773663346,2.7296125988696343,3,1,58,High,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.77,10,3,1,3.4291791620191963,0.2884144815009377,1,3,73,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.81,24,2,1,-1.7836398170721757,2.381926407704887,3,1,98,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.6,0,3,1,-0.3911203663377927,-0.935641499841797,0,0,45,Medium,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.45,0,3,1,-1.357461773663346,2.7296125988696343,3,1,37,Medium,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.5,2,3,1,0.3937367188796189,-0.6687577691426547,0,0,44,Medium,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.5,10,4,1,0.3937367188796189,-0.6687577691426547,0,0,65,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.49,6,3,1,-0.3911203663377927,-0.935641499841797,0,0,51,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.79,3,4,1,0.2390009075012779,0.7527417882998685,0,4,65,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.81,8,2,1,-1.1929884771589887,1.3139764086581622,3,1,66,High,Isolated complaint - no systemic cause
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.52,8,2,0,3.966911999619658,-0.268436093168843,1,3,52,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.79,1,1,0,-1.711371593081928,-3.4244080913301573,2,2,46,Medium,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.53,1,3,1,-1.357461773663346,2.7296125988696343,3,1,43,Medium,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.84,3,2,0,-1.1929884771589887,1.3139764086581622,3,1,58,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.75,1,1,0,3.4291791620191963,0.2884144815009377,1,3,44,Medium,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.8,21,2,1,-1.7836398170721757,2.381926407704887,3,1,92,Critical,Payment gateway or bank processing delay
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.36,2,1,0,-1.357461773663346,2.7296125988696343,3,1,27,Low,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.9,14,4,1,-1.1929884771589887,1.3139764086581622,3,1,93,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.66,2,1,0,3.4291791620191963,0.2884144815009377,1,3,42,Medium,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.55,6,3,1,0.2390009075012779,0.7527417882998685,0,4,54,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.46,3,4,1,0.2390009075012779,0.7527417882998685,0,4,49,Medium,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.66,4,1,0,0.3937367188796189,-0.6687577691426547,0,0,46,Medium,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.49,1,3,1,0.2390009075012779,0.7527417882998685,0,4,41,Medium,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.68,7,1,0,-1.5922467547828327,-2.1694281828813136,2,2,53,High,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.46,1,4,1,0.2390009075012779,0.7527417882998685,0,4,45,Medium,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.59,7,3,1,-0.3911203663377927,-0.935641499841797,0,0,58,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.41,7,2,0,-1.357461773663346,2.7296125988696343,3,1,44,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.76,4,1,0,3.966911999619658,-0.268436093168843,1,3,51,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.41,10,2,0,-0.3911203663377927,-0.935641499841797,0,0,50,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.79,9,4,1,-1.711371593081928,-3.4244080913301573,2,2,77,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.78,14,1,1,-1.5922467547828327,-2.1694281828813136,2,2,72,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.64,1,4,1,3.4291791620191963,0.2884144815009377,1,3,54,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.42,9,3,1,-1.357461773663346,2.7296125988696343,3,1,54,High,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.56,1,2,0,0.3937367188796189,-0.6687577691426547,0,0,40,Medium,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.71,20,3,1,-1.7836398170721757,2.381926407704887,3,1,90,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.63,0,4,1,3.4291791620191963,0.2884144815009377,1,3,51,High,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.46,4,1,0,0.2390009075012779,0.7527417882998685,0,4,36,Medium,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.77,17,2,1,-1.7836398170721757,2.381926407704887,3,1,82,Critical,Payment gateway or bank processing delay
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.79,7,1,1,-1.1929884771589887,1.3139764086581622,3,1,58,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.74,7,3,1,3.429179190843084,0.2884144875879759,1,3,66,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.56,10,2,0,-1.357461773663346,2.7296125988696343,3,1,58,High,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.97,14,1,1,-1.7836398170721757,2.381926407704887,3,1,81,Critical,Payment gateway or bank processing delay
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.83,25,2,1,-1.1929884771589887,1.3139764086581622,3,1,101,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.74,2,4,1,3.429179190843084,0.2884144875879759,1,3,61,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.69,3,3,1,-0.3911203663377927,-0.935641499841797,0,0,55,High,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.8,7,2,1,-1.7836398170721757,2.381926407704887,3,1,64,High,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.5,3,4,1,0.2390009075012779,0.7527417882998685,0,4,51,High,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.77,15,1,1,-1.7836398170721757,2.381926407704887,3,1,73,High,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.89,17,1,1,-1.7836398170721757,2.381926407704887,3,1,83,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.73,7,3,1,-1.7836398170721757,2.381926407704887,3,1,65,High,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.91,1,4,1,-1.711371593081928,-3.4244080913301573,2,2,67,High,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.96,19,4,1,-1.1929884771589887,1.3139764086581622,3,1,106,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.47,8,4,1,-0.3911203663377927,-0.935641499841797,0,0,59,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.73,6,2,0,-1.1929884771589887,1.3139764086581622,3,1,58,High,Isolated complaint - no systemic cause
+"return request ignored completely, no one responding",return_not_picked,english,0.72,6,2,0,-1.5922467547828327,-2.1694281828813136,2,2,58,High,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.68,7,3,1,3.966911999619658,-0.268436093168843,1,3,63,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.74,15,4,1,-1.5922467547828327,-2.1694281828813136,2,2,87,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.59,3,2,0,3.966911999619658,-0.268436093168843,1,3,45,Medium,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.44,6,4,1,0.2390009075012779,0.7527417882998685,0,4,54,High,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.79,12,1,1,-1.711371593081928,-3.4244080913301573,2,2,68,High,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.4,3,3,1,-1.357461773663346,2.7296125988696343,3,1,41,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.62,1,1,0,0.2390009075012779,0.7527417882998685,0,4,38,Medium,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.59,8,3,1,0.3937367188796189,-0.6687577691426547,0,0,60,High,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.7,25,1,0,-1.5922467547828327,-2.1694281828813136,2,2,90,Critical,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.69,3,2,0,-1.711371593081928,-3.4244080913301573,2,2,50,High,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.43,10,1,0,0.2390009075012779,0.7527417882998685,0,4,46,Medium,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.96,11,1,1,-1.1929884771589887,1.3139764086581622,3,1,75,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.55,6,4,1,-0.3911203663377927,-0.935641499841797,0,0,59,High,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.45,5,1,0,0.3937367188796189,-0.6687577691426547,0,0,37,Medium,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.4,7,4,1,-0.3911203663377927,-0.935641499841797,0,0,54,High,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.76,0,1,0,3.966911999619658,-0.268436093168843,1,3,43,Medium,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.96,7,2,1,-1.1929884771589887,1.3139764086581622,3,1,72,High,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.94,17,2,1,-1.711371593081928,-3.4244080913301573,2,2,91,Critical,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.44,3,3,1,0.2390009075012779,0.7527417882998685,0,4,43,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.75,3,3,1,-1.711371593081928,-3.4244080913301573,2,2,58,High,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.53,7,3,1,-1.357461773663346,2.7296125988696343,3,1,55,High,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.54,5,4,1,3.429179190843084,0.2884144875879759,1,3,57,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.81,6,2,0,-1.5922467547828327,-2.1694281828813136,2,2,62,High,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.64,9,1,0,-1.711371593081928,-3.4244080913301573,2,2,55,High,Isolated complaint - no systemic cause
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.52,6,1,0,3.966911999619658,-0.268436093168843,1,3,43,Medium,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.84,10,3,1,-1.5922467547828327,-2.1694281828813136,2,2,77,Critical,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.61,1,3,1,3.429179190843084,0.2884144875879759,1,3,47,Medium,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.64,6,4,1,0.3937367188796189,-0.6687577691426547,0,0,64,High,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.7,1,2,0,3.966911999619658,-0.268436093168843,1,3,47,Medium,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.56,9,4,1,0.2390009075012779,0.7527417882998685,0,4,66,High,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.65,5,1,0,-1.711371593081928,-3.4244080913301573,2,2,47,Medium,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.71,15,4,1,-1.711371593081928,-3.4244080913301573,2,2,85,Critical,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.63,10,3,1,0.3937367188796189,-0.6687577691426547,0,0,66,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.49,9,3,1,0.2390009075012779,0.7527417882998685,0,4,57,High,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.81,20,4,1,-1.711371593081928,-3.4244080913301573,2,2,100,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.71,3,1,0,3.966911999619658,-0.268436093168843,1,3,46,Medium,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.55,3,4,1,0.2390009075012779,0.7527417882998685,0,4,53,High,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.74,9,3,1,3.966911999619658,-0.268436093168843,1,3,70,High,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.43,5,3,1,-0.3911203663377927,-0.935641499841797,0,0,46,Medium,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.83,9,4,1,3.4291791620191963,0.2884144815009377,1,3,79,Critical,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.94,11,3,1,-1.7836398170721757,2.381926407704887,3,1,84,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.56,4,3,1,-0.3911203663377927,-0.935641499841797,0,0,51,High,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.78,11,1,1,-1.5922467547828327,-2.1694281828813136,2,2,66,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.58,4,4,1,-0.3911203663377927,-0.935641499841797,0,0,57,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.78,22,1,1,-1.1929884771589887,1.3139764086581622,3,1,88,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.33,9,2,0,-0.3911203663377927,-0.935641499841797,0,0,44,Medium,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.56,9,2,0,0.3937367188796189,-0.6687577691426547,0,0,56,High,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.93,10,4,1,-1.5922467547828327,-2.1694281828813136,2,2,86,Critical,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.61,6,3,1,3.4291791620191963,0.2884144815009377,1,3,57,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.56,0,3,1,0.3937367188796189,-0.6687577691426547,0,0,43,Medium,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.59,6,3,1,-0.3911203663377927,-0.935641499841797,0,0,56,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.68,2,2,0,0.2390009075012779,0.7527417882998685,0,4,48,Medium,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.77,2,1,0,-1.1929884771589887,1.3139764086581622,3,1,47,Medium,Isolated complaint - no systemic cause
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.78,9,2,1,-1.1929884771589887,1.3139764086581622,3,1,67,High,Isolated complaint - no systemic cause
+"return request ignored completely, no one responding",return_not_picked,english,0.69,15,3,1,-1.5922467547828327,-2.1694281828813136,2,2,79,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.75,9,3,1,-1.711371593081928,-3.4244080913301573,2,2,70,High,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.67,2,2,0,-1.357461773663346,2.7296125988696343,3,1,47,Medium,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.5,5,2,0,0.3937367188796189,-0.6687577691426547,0,0,45,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.66,22,1,0,-1.711371593081928,-3.4244080913301573,2,2,82,Critical,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.81,17,2,1,-1.711371593081928,-3.4244080913301573,2,2,84,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.66,13,4,1,-1.5922467547828327,-2.1694281828813136,2,2,79,Critical,Courier partner failure suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.84,17,2,1,-1.711371593081928,-3.4244080913301573,2,2,86,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.81,16,4,1,-1.5922467547828327,-2.1694281828813136,2,2,92,Critical,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.74,1,2,0,3.429179190843084,0.2884144875879759,1,3,49,Medium,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.83,10,2,1,-1.1929884771589887,1.3139764086581622,3,1,71,High,Payment gateway or bank processing delay
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.94,0,4,1,-1.1929884771589887,1.3139764086581622,3,1,67,High,Isolated complaint - no systemic cause
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.73,19,2,0,-1.711371593081928,-3.4244080913301573,2,2,84,Critical,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.64,10,2,0,-0.3911203663377927,-0.935641499841797,0,0,62,High,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.82,3,3,1,3.966911999619658,-0.268436093168843,1,3,62,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.92,18,1,1,-1.711371593081928,-3.4244080913301573,2,2,87,Critical,Isolated complaint - no systemic cause
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.54,4,1,0,3.966911999619658,-0.268436093168843,1,3,40,Medium,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.86,5,2,1,-1.5922467547828327,-2.1694281828813136,2,2,63,High,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.43,3,1,0,0.3937367188796189,-0.6687577691426547,0,0,32,Medium,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.35,4,2,0,-1.357461773663346,2.7296125988696343,3,1,35,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.56,5,2,0,3.966911999619658,-0.268436093168843,1,3,48,Medium,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.68,0,2,0,-1.357461773663346,2.7296125988696343,3,1,44,Medium,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.59,3,4,1,0.3937367188796189,-0.6687577691426547,0,0,55,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.59,8,2,0,-1.357461773663346,2.7296125988696343,3,1,55,High,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.68,6,4,1,3.429179190843084,0.2884144875879759,1,3,66,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.8,16,4,1,-1.1929884771589887,1.3139764086581622,3,1,92,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.63,9,3,1,3.429179190843084,0.2884144875879759,1,3,64,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.64,7,4,1,3.966911999619658,-0.268436093168843,1,3,66,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.85,2,1,1,-1.7836398170721757,2.381926407704887,3,1,51,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.51,5,3,1,-0.3911203663377927,-0.935641499841797,0,0,50,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.51,3,2,0,-1.357461773663346,2.7296125988696343,3,1,41,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.66,14,4,1,-1.711371593081928,-3.4244080913301573,2,2,81,Critical,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.86,16,2,1,-1.1929884771589887,1.3139764086581622,3,1,85,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.73,5,3,1,0.2390009075012779,0.7527417882998685,0,4,61,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.41,8,3,1,-1.357461773663346,2.7296125988696343,3,1,51,High,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.81,5,4,1,3.966911999619658,-0.268436093168843,1,3,70,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.49,9,4,1,0.3937367188796189,-0.6687577691426547,0,0,62,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.78,1,4,1,-1.1929884771589887,1.3139764086581622,3,1,61,High,Isolated complaint - no systemic cause
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.78,0,1,0,-1.7836398170721757,2.381926407704887,3,1,44,Medium,Isolated complaint - no systemic cause
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.73,23,2,0,-1.7836398170721757,2.381926407704887,3,1,92,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.43,1,4,1,-0.3911203663377927,-0.935641499841797,0,0,43,Medium,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.51,2,4,1,0.3937367188796189,-0.6687577691426547,0,0,49,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.64,6,3,1,3.966911999619658,-0.268436093168843,1,3,59,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.93,11,1,1,-1.1929884771589887,1.3139764086581622,3,1,73,High,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.51,3,1,0,3.429179190843084,0.2884144875879759,1,3,36,Medium,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.88,25,4,1,-1.1929884771589887,1.3139764086581622,3,1,114,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.43,0,4,1,0.2390009075012779,0.7527417882998685,0,4,41,Medium,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.64,7,2,0,0.3937367188796189,-0.6687577691426547,0,0,56,High,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.88,2,1,1,3.966911999619658,-0.268436093168843,1,3,53,High,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.69,4,2,0,0.2390009075012779,0.7527417882998685,0,4,52,High,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.59,7,3,1,3.966911999619658,-0.268436093168843,1,3,58,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.76,23,2,1,-1.1929884771589887,1.3139764086581622,3,1,94,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.62,1,1,0,3.429179190843084,0.2884144875879759,1,3,38,Medium,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.5,10,2,0,0.2390009075012779,0.7527417882998685,0,4,55,High,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.62,8,2,0,-1.711371593081928,-3.4244080913301573,2,2,57,High,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.61,0,3,1,0.2390009075012779,0.7527417882998685,0,4,45,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.74,3,4,1,3.966911999619658,-0.268436093168843,1,3,63,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.85,24,3,1,-1.711371593081928,-3.4244080913301573,2,2,105,Critical,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.61,6,2,0,-1.357461773663346,2.7296125988696343,3,1,52,High,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.56,7,4,1,0.3937367188796189,-0.6687577691426547,0,0,62,High,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.89,10,1,1,3.429179190843084,0.2884144875879759,1,3,69,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.61,22,1,0,-1.5922467547828327,-2.1694281828813136,2,2,79,Critical,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.65,6,1,0,-0.3911203663377927,-0.935641499841797,0,0,49,Medium,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.84,10,1,1,-1.5922467547828327,-2.1694281828813136,2,2,67,High,Isolated complaint - no systemic cause
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.91,21,1,1,-1.1929884771589887,1.3139764086581622,3,1,92,Critical,Payment gateway or bank processing delay
+"return request ignored completely, no one responding",return_not_picked,english,0.61,17,3,1,-1.5922467547828327,-2.1694281828813136,2,2,79,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.84,8,2,1,-1.5922467547828327,-2.1694281828813136,2,2,68,High,Courier partner failure suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.74,9,2,0,-1.7836398170721757,2.381926407704887,3,1,65,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.66,9,2,0,3.429179190843084,0.2884144875879759,1,3,61,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.65,5,3,1,3.966911999619658,-0.268436093168843,1,3,57,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.8,3,3,1,3.966911999619658,-0.268436093168843,1,3,61,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.42,5,2,0,0.3937367188796189,-0.6687577691426547,0,0,41,Medium,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.7,25,2,0,-1.7836398170721757,2.381926407704887,3,1,95,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.76,22,2,1,-1.7836398170721757,2.381926407704887,3,1,92,Critical,Payment gateway or bank processing delay
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.73,20,2,0,-1.711371593081928,-3.4244080913301573,2,2,86,Critical,Courier partner failure suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.81,23,2,1,-1.7836398170721757,2.381926407704887,3,1,96,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.82,5,1,0,3.966911999619658,-0.268436093168843,1,3,56,High,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.71,4,2,0,3.429179190843084,0.2884144875879759,1,3,53,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.58,8,1,0,-1.357461773663346,2.7296125988696343,3,1,50,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.87,16,4,1,-1.1929884771589887,1.3139764086581622,3,1,95,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.59,0,4,1,3.429179190843084,0.2884144875879759,1,3,49,Medium,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.8,16,1,1,-1.5922467547828327,-2.1694281828813136,2,2,77,Critical,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.55,5,1,0,-1.357461773663346,2.7296125988696343,3,1,42,Medium,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.84,9,4,1,-1.1929884771589887,1.3139764086581622,3,1,80,Critical,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.68,7,2,0,-1.357461773663346,2.7296125988696343,3,1,58,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.85,2,4,1,-1.711371593081928,-3.4244080913301573,2,2,66,High,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.59,9,4,1,-1.357461773663346,2.7296125988696343,3,1,67,High,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.53,10,2,0,0.3937367188796189,-0.6687577691426547,0,0,56,High,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.51,0,1,0,0.3937367188796189,-0.6687577691426547,0,0,30,Medium,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.59,1,2,0,3.429179190843084,0.2884144875879759,1,3,41,Medium,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.86,2,2,1,3.429179190843084,0.2884144875879759,1,3,57,High,Supplier quality issue suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.67,8,2,0,-1.357461773663346,2.7296125988696343,3,1,59,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.32,8,1,0,-1.357461773663346,2.7296125988696343,3,1,37,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.88,7,1,1,3.966911999619658,-0.268436093168843,1,3,63,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.86,10,3,1,-1.5922467547828327,-2.1694281828813136,2,2,78,Critical,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.92,7,2,1,-1.1929884771589887,1.3139764086581622,3,1,70,High,Isolated complaint - no systemic cause
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.9,9,4,1,-1.7836398741369313,2.381926538334328,3,1,83,Critical,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.36,2,4,1,-1.357461773663346,2.7296125988696343,3,1,42,Medium,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.67,8,4,1,-0.3911203663377927,-0.935641499841797,0,0,69,High,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.41,5,1,0,-0.3911203663377927,-0.935641499841797,0,0,35,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.98,15,4,1,-1.7836398741369313,2.381926538334328,3,1,99,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.53,8,2,0,-0.3911203663377927,-0.935641499841797,0,0,52,High,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.83,6,4,1,3.429179190843084,0.2884144875879759,1,3,73,High,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.62,9,2,0,3.429179190843084,0.2884144875879759,1,3,59,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.79,18,2,1,-1.7836398170721757,2.381926407704887,3,1,85,Critical,Payment gateway or bank processing delay
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.86,9,4,1,-1.711371593081928,-3.4244080913301573,2,2,81,Critical,Courier partner failure suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.3,9,1,0,-1.357461773663346,2.7296125988696343,3,1,38,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.81,21,4,1,-1.711371593081928,-3.4244080913301573,2,2,102,Critical,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.49,7,3,1,-0.3911203663377927,-0.935641499841797,0,0,53,High,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.68,8,2,0,3.966911999619658,-0.268436093168843,1,3,60,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.75,22,4,1,-1.7836398170721757,2.381926407704887,3,1,101,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.56,2,1,0,-0.3911203663377927,-0.935641499841797,0,0,37,Medium,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.57,9,3,1,-0.3911203663377927,-0.935641499841797,0,0,61,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.71,19,4,1,-1.711371593081928,-3.4244080913301573,2,2,93,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.6,6,2,0,-1.5922467547828327,-2.1694281828813136,2,2,52,High,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.41,6,4,1,0.3937367188796189,-0.6687577691426547,0,0,52,High,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.9,6,4,1,3.966911999619658,-0.268436093168843,1,3,77,Critical,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.93,5,1,1,-1.7836398170721757,2.381926407704887,3,1,61,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.65,9,3,1,3.429179190843084,0.2884144875879759,1,3,65,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.77,1,4,1,0.3937367188796189,-0.6687577691426547,0,0,60,High,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.77,5,4,1,-1.5922467547828327,-2.1694281828813136,2,2,68,High,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.82,5,3,1,3.429179190843084,0.2884144875879759,1,3,66,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.73,7,1,0,-1.7836398170721757,2.381926407704887,3,1,55,High,Isolated complaint - no systemic cause
+"return request ignored completely, no one responding",return_not_picked,english,0.74,7,3,1,-1.5922467547828327,-2.1694281828813136,2,2,66,High,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.77,6,3,1,3.966911999619658,-0.268436093168843,1,3,65,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.74,24,4,1,-1.1929884771589887,1.3139764086581622,3,1,105,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.71,1,3,1,3.966911999619658,-0.268436093168843,1,3,52,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.88,13,1,1,-1.5922467547828327,-2.1694281828813136,2,2,75,Critical,Isolated complaint - no systemic cause
+"color mismatch in my order, very upset",color_mismatch,english,0.76,7,4,1,0.3937367188796189,-0.6687577691426547,0,0,72,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.41,2,2,0,-1.357461773663346,2.7296125988696343,3,1,34,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.67,23,3,1,-1.711371593081928,-3.4244080913301573,2,2,94,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.91,11,3,1,-1.5922467547828327,-2.1694281828813136,2,2,82,Critical,Courier partner failure suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.94,20,3,1,-1.7836398170721757,2.381926407704887,3,1,102,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.65,6,4,1,3.4291789371217094,0.288414405497268,1,3,64,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.64,2,4,1,-1.711371593081928,-3.4244080913301573,2,2,56,High,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.43,1,1,0,0.3937367188796189,-0.6687577691426547,0,0,28,Low,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.83,9,2,1,3.966911999619658,-0.268436093168843,1,3,69,High,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.54,5,3,1,3.4291789371217094,0.288414405497268,1,3,52,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.8,6,4,1,3.966911999619658,-0.268436093168843,1,3,72,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.84,20,3,1,-1.1929884771589887,1.3139764086581622,3,1,97,Critical,Payment gateway or bank processing delay
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.75,8,4,1,-1.1929884771589887,1.3139764086581622,3,1,73,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.46,3,1,0,-0.3911203663377927,-0.935641499841797,0,0,34,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.9,10,4,1,-1.7836398170721757,2.381926407704887,3,1,85,Critical,Payment gateway or bank processing delay
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.87,9,3,1,3.4291789371217094,0.288414405497268,1,3,76,Critical,Supplier quality issue suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.31,5,1,0,-0.3911203663377927,-0.935641499841797,0,0,30,Medium,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.59,5,1,0,-0.3911203663377927,-0.935641499841797,0,0,44,Medium,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.75,4,2,0,-1.1929884771589887,1.3139764086581622,3,1,55,High,Isolated complaint - no systemic cause
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.69,7,3,1,3.966911999619658,-0.268436093168843,1,3,63,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.62,24,2,0,-1.5922467547828327,-2.1694281828813136,2,2,89,Critical,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.95,3,4,1,-1.5922467547828327,-2.1694281828813136,2,2,73,High,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.61,8,3,1,-1.5922467547828327,-2.1694281828813136,2,2,61,High,Courier partner failure suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.73,24,2,0,-1.7836398170721757,2.381926407704887,3,1,94,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.58,0,1,0,0.2390009075012779,0.7527417882998685,0,4,34,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.56,3,3,1,3.966911999619658,-0.268436093168843,1,3,49,Medium,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.92,6,3,1,-1.5922467003701688,-2.1694284101938868,2,2,73,High,Courier partner failure suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.78,25,2,1,-1.5922467003701688,-2.1694284101938868,2,2,99,Critical,Courier partner failure suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.77,3,2,0,3.966911999619658,-0.268436093168843,1,3,54,High,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.78,7,1,1,0.2390009075012779,0.7527417882998685,0,4,58,High,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.56,10,2,0,3.4291789371217094,0.288414405497268,1,3,58,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.71,2,3,1,-1.5922467547828327,-2.1694281828813136,2,2,54,High,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.48,9,2,0,0.3937367188796189,-0.6687577691426547,0,0,52,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.42,0,2,0,-0.3911203663377927,-0.935641499841797,0,0,31,Medium,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.69,4,1,0,-1.5922467547828327,-2.1694281828813136,2,2,47,Medium,Isolated complaint - no systemic cause
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.54,1,1,0,3.966911999619658,-0.268436093168843,1,3,34,Medium,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.77,15,4,1,-1.7836398170721757,2.381926407704887,3,1,88,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.62,9,2,0,3.966911999619658,-0.268436093168843,1,3,59,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.85,20,3,1,-1.7836398170721757,2.381926407704887,3,1,97,Critical,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.69,6,4,1,0.3937367188796189,-0.6687577691426547,0,0,66,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.61,5,1,0,-0.3911203663377927,-0.935641499841797,0,0,45,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.74,2,2,0,3.966911999619658,-0.268436093168843,1,3,51,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.86,7,3,1,-1.1929884771589887,1.3139764086581622,3,1,72,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.68,5,4,1,3.429179190843084,0.2884144875879759,1,3,64,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.91,6,2,1,-1.711371593081928,-3.4244080913301573,2,2,67,High,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.47,3,3,1,0.3937367188796189,-0.6687577691426547,0,0,44,Medium,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.61,6,1,0,0.2390009075012779,0.7527417882998685,0,4,47,Medium,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.61,9,4,1,3.966911999619658,-0.268436093168843,1,3,68,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.85,14,3,1,-1.5922467003701688,-2.1694284101938868,2,2,85,Critical,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.86,7,3,1,3.4291789371217094,0.288414405497268,1,3,72,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.74,8,1,0,-1.5922467003701688,-2.1694284101938868,2,2,58,High,Isolated complaint - no systemic cause
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.86,21,3,1,-1.1929884771589887,1.3139764086581622,3,1,100,Critical,Payment gateway or bank processing delay
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.98,15,1,1,-1.7836398170721757,2.381926407704887,3,1,84,Critical,Payment gateway or bank processing delay
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.44,8,3,1,-1.357461773663346,2.7296125988696343,3,1,53,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.42,1,4,1,0.2390009075012779,0.7527417882998685,0,4,43,Medium,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.64,1,2,0,0.2390009075012779,0.7527417882998685,0,4,44,Medium,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.71,10,4,1,0.3937367188796189,-0.6687577691426547,0,0,75,Critical,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.75,10,3,1,0.2390009075012779,0.7527417882998685,0,4,72,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.39,2,3,1,-1.357461773663346,2.7296125988696343,3,1,38,Medium,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.45,9,1,0,0.3937367188796189,-0.6687577691426547,0,0,45,Medium,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.62,1,3,1,-1.357461773663346,2.7296125988696343,3,1,48,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.71,6,1,0,3.966911999619658,-0.268436093168843,1,3,52,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.86,24,2,1,-1.1929884771589887,1.3139764086581622,3,1,101,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.64,10,2,0,0.2390009075012779,0.7527417882998685,0,4,62,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.42,3,1,0,0.2390009075012779,0.7527417882998685,0,4,32,Medium,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.48,5,4,1,-1.357461773663346,2.7296125988696343,3,1,54,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.72,21,2,0,-1.1929884771589887,1.3139764086581622,3,1,88,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.57,3,4,1,0.2390009075012779,0.7527417882998685,0,4,54,High,Seller product listing fraud suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.62,6,3,1,3.966911999619658,-0.268436093168843,1,3,58,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.55,4,4,1,0.3937367188796189,-0.6687577691426547,0,0,55,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.57,10,4,1,0.2390009075012779,0.7527417882998685,0,4,68,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.5,8,4,1,0.2390009075012779,0.7527417882998685,0,4,61,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.59,3,3,1,-1.357461773663346,2.7296125988696343,3,1,50,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.61,9,2,0,-1.357461773663346,2.7296125988696343,3,1,58,High,Warehouse packing error suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.83,7,1,1,-1.1929884771589887,1.3139764086581622,3,1,60,High,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.5,2,1,0,0.2390009075012779,0.7527417882998685,0,4,34,Medium,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.71,4,3,1,3.429179190843084,0.2884144875879759,1,3,58,High,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.87,2,4,1,3.966911999619658,-0.268436093168843,1,3,67,High,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.71,5,3,1,0.2390009075012779,0.7527417882998685,0,4,60,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.41,8,4,1,-0.3911203663377927,-0.935641499841797,0,0,56,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.33,10,3,1,-1.357461773663346,2.7296125988696343,3,1,51,High,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.73,1,1,0,-1.7836398170721757,2.381926407704887,3,1,43,Medium,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.6,0,3,1,-1.357461773663346,2.7296125988696343,3,1,45,Medium,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.89,2,2,1,-1.5922467547828327,-2.1694281828813136,2,2,58,High,Courier partner failure suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.8,0,1,0,3.429179190843084,0.2884144875879759,1,3,45,Medium,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.9,20,2,1,-1.7836398170721757,2.381926407704887,3,1,95,Critical,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.63,2,4,1,0.3937367188796189,-0.6687577691426547,0,0,55,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.77,3,3,1,0.2390009075012779,0.7527417882998685,0,4,59,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.76,6,3,1,-1.1929884771589887,1.3139764086581622,3,1,65,High,Isolated complaint - no systemic cause
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.83,4,1,0,3.4291789371217094,0.288414405497268,1,3,54,High,Supplier quality issue suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.97,11,4,1,-1.7836398170721757,2.381926407704887,3,1,90,Critical,Payment gateway or bank processing delay
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.6,2,2,0,-1.357461773663346,2.7296125988696343,3,1,44,Medium,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.62,9,4,1,0.3937367188796189,-0.6687577691426547,0,0,69,High,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.47,0,3,1,0.2390009075012779,0.7527417882998685,0,4,38,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.94,12,1,1,-1.711371593081928,-3.4244080913301573,2,2,76,Critical,Isolated complaint - no systemic cause
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.39,10,3,1,-1.357461773663346,2.7296125988696343,3,1,54,High,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.63,0,1,0,-0.3911203663377927,-0.935641499841797,0,0,36,Medium,Warehouse packing error suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.71,1,4,1,3.429179190843084,0.2884144875879759,1,3,57,High,Supplier quality issue suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.76,13,3,1,-1.711371593081928,-3.4244080913301573,2,2,79,Critical,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.5,3,3,1,0.3937367188796189,-0.6687577691426547,0,0,46,Medium,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.42,1,3,1,-0.3911203663377927,-0.935641499841797,0,0,38,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.7,3,2,0,3.966911999619658,-0.268436093168843,1,3,51,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.47,10,4,1,0.3937367188796189,-0.6687577691426547,0,0,63,High,Seller product listing fraud suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.94,10,1,1,-1.5922467003701688,-2.1694284101938868,2,2,72,High,Isolated complaint - no systemic cause
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.79,12,3,1,-1.7836398170721757,2.381926407704887,3,1,78,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.5,9,1,0,-0.3911203663377927,-0.935641499841797,0,0,48,Medium,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.94,17,1,1,-1.7836398170721757,2.381926407704887,3,1,86,Critical,Payment gateway or bank processing delay
+"saree color was red online but received pink, cheating",color_mismatch,english,0.44,1,3,1,0.2390009075012779,0.7527417882998685,0,4,39,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.89,12,4,1,-1.711371593081928,-3.4244080913301573,2,2,88,Critical,Courier partner failure suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.61,6,3,1,0.3937367188796189,-0.6687577691426547,0,0,57,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.44,5,4,1,-1.357461773663346,2.7296125988696343,3,1,52,High,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.65,9,1,0,3.966911999619658,-0.268436093168843,1,3,55,High,Supplier quality issue suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.51,10,4,1,0.3937367188796189,-0.6687577691426547,0,0,65,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.93,15,1,1,-1.1929884771589887,1.3139764086581622,3,1,81,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.56,8,4,1,3.966911999619658,-0.268436093168843,1,3,64,High,Supplier quality issue suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.86,18,1,1,-1.1929884771589887,1.3139764086581622,3,1,84,Critical,Payment gateway or bank processing delay
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.51,9,2,0,-1.357461773663346,2.7296125988696343,3,1,53,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.75,2,1,0,0.2390009075012779,0.7527417882998685,0,4,46,Medium,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.47,6,3,1,-0.3911203663377927,-0.935641499841797,0,0,50,High,Warehouse packing error suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.81,0,1,0,-1.5922467003701688,-2.1694284101938868,2,2,45,Medium,Isolated complaint - no systemic cause
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.77,14,4,1,-1.7836398170721757,2.381926407704887,3,1,86,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.31,1,2,0,-0.3911203663377927,-0.935641499841797,0,0,27,Low,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.58,4,1,0,0.3937367188796189,-0.6687577691426547,0,0,42,Medium,Seller product listing fraud suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.59,2,2,0,3.4291791620191963,0.2884144815009377,1,3,43,Medium,Supplier quality issue suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.75,4,1,0,3.966911999619658,-0.268436093168843,1,3,50,High,Supplier quality issue suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.64,2,2,0,0.2390009075012779,0.7527417882998685,0,4,46,Medium,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.93,20,4,1,-1.711371593081928,-3.4244080913301573,2,2,106,Critical,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.83,18,4,1,-1.1929884771589887,1.3139764086581622,3,1,97,Critical,Payment gateway or bank processing delay
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.62,8,4,1,-0.3911203663377927,-0.935641499841797,0,0,67,High,Warehouse packing error suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.67,6,1,0,0.3937367188796189,-0.6687577691426547,0,0,50,High,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.59,3,4,1,-1.357461773663346,2.7296125988696343,3,1,55,High,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.49,1,1,0,0.2390009075012779,0.7527417882998685,0,4,31,Medium,Seller product listing fraud suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.54,0,2,0,-1.357461773663346,2.7296125988696343,3,1,37,Medium,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.53,1,1,0,-1.357461773663346,2.7296125988696343,3,1,33,Medium,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.65,15,2,0,-1.711371593081928,-3.4244080913301573,2,2,72,High,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.66,9,2,0,0.2390009075012779,0.7527417882998685,0,4,61,High,Seller product listing fraud suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.8,23,2,1,-1.711371593081928,-3.4244080913301573,2,2,96,Critical,Courier partner failure suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.92,12,4,1,-1.1929884771589887,1.3139764086581622,3,1,90,Critical,Payment gateway or bank processing delay
+"return request ignored completely, no one responding",return_not_picked,english,0.78,14,1,1,-1.5922467547828327,-2.1694281828813136,2,2,72,High,Isolated complaint - no systemic cause
+"saree color was red online but received pink, cheating",color_mismatch,english,0.68,7,3,1,0.2390009075012779,0.7527417882998685,0,4,63,High,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.57,8,3,1,-0.3911203663377927,-0.935641499841797,0,0,59,High,Warehouse packing error suspected
+courier not coming for pickup despite multiple complaints,return_not_picked,english,0.7,18,4,1,-1.7113717658627356,-3.4244081241908466,2,2,91,Critical,Courier partner failure suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.71,9,2,0,0.2390009075012779,0.7527417882998685,0,4,63,High,Seller product listing fraud suspected
+"paise wapas karo, return toh ho gaya tha",refund_not_credited,hinglish,0.74,17,3,1,-1.1929884771589887,1.3139764086581622,3,1,86,Critical,Payment gateway or bank processing delay
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.72,10,3,1,3.966911999619658,-0.268436093168843,1,3,71,High,Supplier quality issue suspected
+"fabric is rough and fake, returning immediately",fake_fabric,english,0.77,3,4,1,3.4291791620191963,0.2884144815009377,1,3,64,High,Supplier quality issue suspected
+"return request ignored completely, no one responding",return_not_picked,english,0.66,24,4,1,-1.5922467547828327,-2.1694281828813136,2,2,101,Critical,Courier partner failure suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.56,6,3,1,-0.3911203663377927,-0.935641499841797,0,0,55,High,Warehouse packing error suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.91,18,4,1,-1.7836398170721757,2.381926407704887,3,1,101,Critical,Payment gateway or bank processing delay
+"color mismatch in my order, very upset",color_mismatch,english,0.42,4,1,0,0.3937367188796189,-0.6687577691426547,0,0,34,Medium,Seller product listing fraud suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.41,5,4,1,0.2390009075012779,0.7527417882998685,0,4,50,High,Seller product listing fraud suspected
+"refund nahi aaya abhi tak, fraud hai kya",refund_not_credited,hinglish,0.83,4,1,0,-1.7836398170721757,2.381926407704887,3,1,54,High,Isolated complaint - no systemic cause
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.57,10,1,0,-0.3911203663377927,-0.935641499841797,0,0,53,High,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.4,5,2,0,-0.3911203663377927,-0.935641499841797,0,0,40,Medium,Warehouse packing error suspected
+"saree color was red online but received pink, cheating",color_mismatch,english,0.46,2,3,1,0.2390009075012779,0.7527417882998685,0,4,42,Medium,Seller product listing fraud suspected
+"color mismatch in my order, very upset",color_mismatch,english,0.6,4,1,0,0.3937367188796189,-0.6687577691426547,0,0,43,Medium,Seller product listing fraud suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.49,10,4,1,-0.3911203663377927,-0.935641499841797,0,0,64,High,Warehouse packing error suspected
+"ordered xl kurta but received m size, totally wrong",wrong_size,english,0.62,1,4,1,-0.3911203663377927,-0.935641499841797,0,0,53,High,Warehouse packing error suspected
+"mujhe galat size mila hai, xl manga tha s aaya",wrong_size,hinglish,0.3,4,2,0,-1.357461773663346,2.7296125988696343,3,1,33,Medium,Warehouse packing error suspected
+"fabric feels fake and uncomfortable, not cotton at all",fake_fabric,english,0.87,1,2,1,3.966911999619658,-0.268436093168843,1,3,55,High,Supplier quality issue suspected
