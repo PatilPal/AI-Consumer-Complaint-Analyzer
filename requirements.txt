@@ -1,0 +1,32 @@
+# Core data
+pandas==2.3.3
+numpy==2.3.5
+
+# Machine learning
+scikit-learn==1.7.2
+xgboost==2.1.4
+joblib==1.5.2
+
+# NLP
+transformers==4.47.0
+torch==2.5.1
+spacy==3.8.3
+nltk==3.9.1
+textblob==0.19.0
+
+# Backend
+fastapi==0.115.6
+uvicorn==0.48.0
+pydantic==2.10.4
+python-multipart==0.0.29
+
+# Dashboard
+streamlit==1.57.0
+plotly==6.7.0
+
+# Visualization
+matplotlib==3.10.8
+
+# Utilities
+requests==2.32.5
+scipy==1.16.3
