@@ -8,7 +8,7 @@ import sys
 import joblib
 import pandas as pd
 import numpy as np
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -16,7 +16,7 @@ from pydantic import BaseModel
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "backend"))
 
-from api_keys import router as keys_router, init_db, verify_api_key
+from api_keys import init_db
 
 # ─── App Setup ─────────────────────────────────────────────────────────────────
 
@@ -54,10 +54,6 @@ def startup():
         print(f"[startup] Warning — could not load models: {e}")
         print("[startup] /analyze will return heuristic scores only.")
 
-
-# ─── Mount API key router ───────────────────────────────────────────────────────
-
-app.include_router(keys_router)
 
 # ─── Root Healthcheck ──────────────────────────────────────────────────────────
 
@@ -121,6 +117,8 @@ def _detect_complaint_type(text: str) -> str:
         return "return_not_picked"
     if any(w in text for w in ["refund", "money", "credit", "payment", "amount"]):
         return "refund_not_credited"
+    if any(w in text for w in ["not received", "not delivered", "missing", "parcel", "order", "package", "arrived"]):
+        return "return_not_picked"
     return "wrong_size"   # default fallback
 
 
@@ -157,7 +155,6 @@ def _recommendation(risk_level: str, complaint_type: str) -> str:
     "/analyze",
     response_model=AnalysisResponse,
     tags=["Analysis"],
-    dependencies=[Depends(verify_api_key)],
     summary="Analyze a complaint — returns risk score, type, and root cause"
 )
 def analyze_complaint(req: ComplaintRequest):
@@ -180,6 +177,46 @@ def analyze_complaint(req: ComplaintRequest):
             risk_lvl   = _risk_level(risk_score)
         except Exception as e:
             print(f"[analyze] Model prediction failed, using heuristic: {e}")
+
+    # Save to SQLite
+    import sqlite3
+    import uuid
+    from datetime import datetime
+
+    db_path = os.path.join(ROOT, "db", "complaints.db")
+    os.makedirs(os.path.join(ROOT, "db"), exist_ok=True)
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS complaints (
+            id TEXT PRIMARY KEY,
+            complaint_text TEXT,
+            complaint_type TEXT,
+            anger_score REAL,
+            days_pending INTEGER,
+            repeat_count INTEGER,
+            risk_score INTEGER,
+            risk_level TEXT,
+            root_cause TEXT,
+            timestamp TEXT
+        )
+    """)
+    cursor.execute("""
+        INSERT INTO complaints VALUES (?,?,?,?,?,?,?,?,?,?)
+    """, (
+        str(uuid.uuid4()),
+        req.complaint_text,
+        complaint_type,
+        req.anger_score,
+        req.days_pending,
+        req.repeat_count,
+        risk_score,
+        risk_lvl,
+        root_cause,
+        datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    ))
+    conn.commit()
+    conn.close()
 
     return AnalysisResponse(
         complaint_type  = complaint_type,
@@ -210,5 +247,17 @@ def complaints_summary():
             "avg_risk_score": round(float(df["Risk Score"].mean()), 1),
         }
         return summary
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.get("/complaints", tags=["Analysis"])
+def get_complaints():
+    import sqlite3
+    db_path = os.path.join(ROOT, "db", "complaints.db")
+    try:
+        conn = sqlite3.connect(db_path)
+        df = pd.read_sql_query("SELECT * FROM complaints ORDER BY timestamp DESC", conn)
+        conn.close()
+        return df.to_dict(orient="records")
     except Exception as e:
         return {"error": str(e)}

@@ -6,9 +6,6 @@
 
 const API_BASE = "http://127.0.0.1:8000";
 
-// ---  Change this to a real key generated via POST /keys/generate  ---
-const API_KEY  = "PASTE_YOUR_API_KEY_HERE";
-
 // ─── Slider ─────────────────────────────────────────────────
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -102,15 +99,19 @@ function typeBadge(type) {
 }
 
 function buildBotReply(data) {
-    return `
-        <div style="line-height:1.7">
-            <b>Complaint type:</b> ${typeBadge(data.complaint_type)}<br>
-            <b>Risk score:</b> <b>${data.risk_score}/100</b> ${riskBadge(data.risk_level)}<br>
-            <b>Escalation prob:</b> ${(data.escalation_prob * 100).toFixed(1)}%<br>
-            <b>Root cause:</b> ${data.root_cause}<br>
-            <b>Next step:</b> ${data.recommendation}
-        </div>
-    `;
+    let reply = "";
+
+    if (data.risk_level === "Critical") {
+        reply = "We're sorry to hear this. Your complaint has been escalated to our senior support team and an agent will contact you within 2 hours.";
+    } else if (data.risk_level === "High") {
+        reply = "We apologize for the inconvenience. Your complaint has been assigned to a dedicated agent who will reach out within 4 hours.";
+    } else if (data.risk_level === "Medium") {
+        reply = "Thank you for reaching out. Your complaint has been registered and will be resolved within 48 hours. You will receive an update via email.";
+    } else {
+        reply = "Thank you for contacting QuickKart Support. Your complaint has been registered. Expected resolution time is 3 to 5 working days.";
+    }
+
+    return `<div style="line-height:1.7">${reply}</div>`;
 }
 
 // ─── Send message ─────────────────────────────────────────────
@@ -145,8 +146,7 @@ async function sendMessage() {
         const response = await fetch(`${API_BASE}/analyze`, {
             method: "POST",
             headers: {
-                "Content-Type": "application/json",
-                "X-API-Key":    API_KEY
+                "Content-Type": "application/json"
             },
             body: JSON.stringify({
                 complaint_text: message,

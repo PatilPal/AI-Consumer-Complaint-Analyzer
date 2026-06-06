@@ -1,3 +1,4 @@
+import requests
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -10,22 +11,33 @@ st.set_page_config(
 )
 
 # ─── Load Data ────────────────────────────────────────────────
-@st.cache_data
+
+@st.cache_data(ttl=5)
 def load_data():
-    return pd.read_csv("data/processed/cluster_output.csv")
+    try:
+        response = requests.get("http://127.0.0.1:8000/complaints")
+        data = response.json()
+        if isinstance(data, list) and len(data) > 0:
+            return pd.DataFrame(data)
+        else:
+            return pd.read_csv(r"C:\Projects\AI-Consumer-Complaint-Analyzer\data\processed\cluster_output.csv")
+    except:
+        return pd.read_csv(r"C:\Projects\AI-Consumer-Complaint-Analyzer\data\processed\cluster_output.csv")
 
 df = load_data()
 
 # ─── Sidebar Filters ──────────────────────────────────────────
+
+
 st.sidebar.title("Filters")
 
 selected_cluster = st.sidebar.selectbox(
     "DBSCAN Cluster",
-    ["All"] + sorted(df["DBSCAN_Cluster"].unique().tolist())
+    ["All"] + sorted(df["complaint_type"].unique().tolist())
 )
 
 selected_risk = st.sidebar.multiselect(
-    "Risk Level",
+    "risk_level",
     options=["Critical", "High", "Medium", "Low"],
     default=["Critical", "High", "Medium", "Low"]
 )
@@ -36,10 +48,10 @@ search = st.sidebar.text_input("Search Complaint")
 filtered_df = df.copy()
 
 if selected_cluster != "All":
-    filtered_df = filtered_df[filtered_df["DBSCAN_Cluster"] == selected_cluster]
+    filtered_df = filtered_df[filtered_df["complaint_type"] == selected_cluster]
 
 if selected_risk:
-    filtered_df = filtered_df[filtered_df["Risk Level"].isin(selected_risk)]
+    filtered_df = filtered_df[filtered_df["risk_level"].isin(selected_risk)]
 
 if search:
     filtered_df = filtered_df[
@@ -64,8 +76,8 @@ with col1:
     )
 
 with col2:
-    critical_count = len(filtered_df[filtered_df["Risk Level"] == "Critical"])
-    total_critical = len(df[df["Risk Level"] == "Critical"])
+    critical_count = len(filtered_df[filtered_df["risk_level"] == "Critical"])
+    total_critical = len(df[df["risk_level"] == "Critical"])
     st.metric(
         "Critical Risk",
         critical_count,
@@ -74,10 +86,10 @@ with col2:
     )
 
 with col3:
-    st.metric("DBSCAN Clusters", filtered_df["DBSCAN_Cluster"].nunique())
+    st.metric("Complaint Types", filtered_df["complaint_type"].nunique())
 
 with col4:
-    avg_score = round(filtered_df["Risk Score"].mean(), 1) if len(filtered_df) else 0
+    avg_score = round(filtered_df["risk_score"].mean(), 1) if len(filtered_df) else 0
     st.metric("Avg Risk Score", avg_score)
 
 st.divider()
@@ -86,31 +98,32 @@ st.divider()
 col_scatter, col_donut = st.columns([2, 1])
 
 with col_scatter:
-    fig_scatter = px.scatter(
-        filtered_df,
-        x="x",
-        y="y",
-        color=filtered_df["DBSCAN_Cluster"].astype(str),
-        hover_data=["complaint_text", "complaint_type", "Risk Score", "KMeans_Cluster"],
-        title="DBSCAN Complaint Clusters"
+    type_counts = filtered_df["complaint_type"].value_counts().reset_index()
+    type_counts.columns = ["complaint_type", "count"]
+    fig_scatter = px.bar(
+        type_counts,
+        x="complaint_type",
+        y="count",
+        color="complaint_type",
+        title="Complaints by Type"
     )
+    fig_scatter.update_layout(showlegend=False)
     st.plotly_chart(fig_scatter, use_container_width=True)
-
 with col_donut:
     risk_counts = (
-        filtered_df["Risk Level"]
+        filtered_df["risk_level"]
         .value_counts()
         .reindex(["Critical", "High", "Medium", "Low"], fill_value=0)
         .reset_index()
     )
-    risk_counts.columns = ["Risk Level", "count"]
+    risk_counts.columns = ["risk_level", "count"]
 
     fig_donut = px.pie(
         risk_counts,
-        names="Risk Level",
+        names="risk_level",
         values="count",
         hole=0.5,
-        color="Risk Level",
+        color="risk_level",
         color_discrete_map={
             "Critical": "#c0392b",
             "High":     "#e67e22",
@@ -127,16 +140,16 @@ col_rc, col_hist = st.columns(2)
 
 with col_rc:
     rc_counts = (
-        filtered_df["Root Cause"]
+        filtered_df["root_cause"]
         .value_counts()
         .reset_index()
     )
-    rc_counts.columns = ["Root Cause", "count"]
+    rc_counts.columns = ["root_cause", "count"]
 
     fig_rc = px.bar(
         rc_counts,
         x="count",
-        y="Root Cause",
+        y="root_cause",
         orientation="h",
         color="count",
         color_continuous_scale="Reds",
@@ -148,7 +161,7 @@ with col_rc:
 with col_hist:
     fig_hist = px.histogram(
         filtered_df,
-        x="Risk Score",
+        x="risk_score",
         nbins=20,
         color_discrete_sequence=["#e74c3c"],
         title="Escalation Risk Score Distribution"
@@ -176,7 +189,7 @@ with col_type:
 with col_pie:
     fig_pie = px.pie(
         filtered_df,
-        names="DBSCAN_Cluster",
+        names="complaint_type",
         title="DBSCAN Cluster Distribution"
     )
     st.plotly_chart(fig_pie, use_container_width=True)
@@ -185,8 +198,8 @@ with col_pie:
 st.subheader("Complaint Data")
 st.dataframe(
     filtered_df[[
-        "complaint_text", "complaint_type", "Risk Score",
-        "Risk Level", "Root Cause", "DBSCAN_Cluster", "KMeans_Cluster"
+        "complaint_text", "complaint_type", "risk_score",
+        "risk_level", "root_cause", "timestamp"
     ]],
     use_container_width=True
 )
